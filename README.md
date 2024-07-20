@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Detail
 ## This is Maha Zainab's Portfolio where you will find all her work
 
