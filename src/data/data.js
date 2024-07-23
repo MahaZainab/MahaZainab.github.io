@@ -14,6 +14,19 @@ export const data = {
         title: "Project Two",
         description: "Description for project two."
       }
-    ]
+    ],
+    navbar: {
+      logo: require('./assets/img/logo.svg').default,
+      links: [
+        { href: "#home", name: "Home" },
+        { href: "#skills", name: "Skills" },
+        { href: "#projects", name: "Projects" }
+      ],
+      socialIcons: [
+        { href: "#", src: require('./assets/img/nav-icon1.svg').default },
+        { href: "#", src: require('./assets/img/nav-icon2.svg').default },
+        { href: "#", src: require('./assets/img/nav-icon3.svg').default }
+      ]
+    }  
   };
   
