@@ -1,21 +1,70 @@
-// src/components/Header.js
+// src/components/NavBar.js
 
-import React from 'react';
-import './Navbar.css';
+import { useState, useEffect } from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
+import { HashLink } from 'react-router-hash-link';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
+import { data } from '../data';
 
-const Navbar = () => {
+export const NavBar = () => {
+  const [activeLink, setActiveLink] = useState('home');
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    }
+
+    window.addEventListener("scroll", onScroll);
+
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const onUpdateActiveLink = (value) => {
+    setActiveLink(value);
+  }
+
   return (
-    <header className="header">
-      <h1>Maha Zainab's Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-  );
-};
-
-export default Navbar;
+    <Router>
+      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+        <Container>
+          <Navbar.Brand href="/">
+            <img src={data.navbar.logo} alt="Logo" />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav">
+            <span className="navbar-toggler-icon"></span>
+          </Navbar.Toggle>
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ms-auto">
+              {data.navbar.links.map((link, index) => (
+                <Nav.Link 
+                  key={index}
+                  href={link.href} 
+                  className={activeLink === link.name.toLowerCase() ? 'active navbar-link' : 'navbar-link'} 
+                  onClick={() => onUpdateActiveLink(link.name.toLowerCase())}>
+                  {link.name}
+                </Nav.Link>
+              ))}
+            </Nav>
+            <span className="navbar-text">
+              <div className="social-icon">
+                {data.navbar.socialIcons.map((icon, index) => (
+                  <a key={index} href={icon.href}><img src={icon.src} alt="" /></a>
+                ))}
+              </div>
+              <HashLink to='#connect'>
+                <button className="vvd"><span>Let’s Connect</span></button>
+              </HashLink>
+            </span>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </Router>
+  )
+}
