@@ -16,7 +16,7 @@ export const data = {
       }
     ],
     navbar: {
-      logo: require('./assets/img/logo.svg').default,
+      logo: require('.././assets/img/logo.png').default,
       links: [
         { href: "#home", name: "Home" },
         { href: "#skills", name: "Skills" },
