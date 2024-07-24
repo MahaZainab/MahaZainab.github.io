@@ -16,17 +16,21 @@ export const data = {
       }
     ],
     navbar: {
-      logo: require('../assets/img/logo1.svg').default,
+      logo: require('../assets/img/Maha.svg').default,
       links: [
         { href: "#home", name: "Home" },
+        { href: "#research", name: "Research" },
+        { href: "#projects", name: "Projects" },
         { href: "#skills", name: "Skills" },
-        { href: "#projects", name: "Projects" }
+        { href: "#education", name: "Education" },
+        { href: "#experience", name: "Experience" },
+        { href: "#contact", name: "Contact" }
       ],
       socialIcons: [
-        { href: "#", src: require('../assets/img/linkedin.svg').default },
-        { href: "#", src: require('../assets/img/github.svg').default },
-        { href: "#", src: require('../assets/img/kaggle.svg').default },
-        { href: "#", src: require('../assets/img/gmail.svg').default }
+        { href: "https://www.linkedin.com/in/mahazainab/", src: require('../assets/img/linkedin.svg').default },
+        { href: "https://github.com/MahaZainab", src: require('../assets/img/github.svg').default },
+        { href: "https://www.kaggle.com/mahazainab28", src: require('../assets/img/kaggle.svg').default },
+        { href: "mznb03@gmail.com", src: require('../assets/img/gmail.svg').default }
       ]
     }  
   };

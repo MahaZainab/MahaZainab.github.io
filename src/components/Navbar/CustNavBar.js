@@ -58,9 +58,6 @@ export const CustNavBar = () => {
                   <a key={index} href={icon.href}><img src={icon.src} alt="" /></a>
                 ))}
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>
