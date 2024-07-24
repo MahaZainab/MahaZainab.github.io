@@ -16,16 +16,16 @@ export const data = {
       }
     ],
     navbar: {
-      logo: require('.././assets/img/logo.png').default,
+      logo: require('../assets/img/logo.svg').default,
       links: [
         { href: "#home", name: "Home" },
         { href: "#skills", name: "Skills" },
         { href: "#projects", name: "Projects" }
       ],
       socialIcons: [
-        { href: "#", src: require('.././assets/img/logo.png').default },
-        { href: "#", src: require('.././assets/img/logo.png').default },
-        { href: "#", src: require('.././assets/img/logo.png').default }
+        { href: "#", src: require('../assets/img/nav-icon1.svg').default },
+        { href: "#", src: require('../assets/img/github-mark-white.svg').default },
+        { href: "#", src: require('../assets/img/nav-icon3.svg').default }
       ]
     }  
   };
