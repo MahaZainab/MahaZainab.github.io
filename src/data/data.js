@@ -23,9 +23,9 @@ export const data = {
         { href: "#projects", name: "Projects" }
       ],
       socialIcons: [
-        { href: "#", src: require('./assets/img/nav-icon1.svg').default },
-        { href: "#", src: require('./assets/img/nav-icon2.svg').default },
-        { href: "#", src: require('./assets/img/nav-icon3.svg').default }
+        { href: "#", src: require('.././assets/img/logo.png').default },
+        { href: "#", src: require('.././assets/img/logo.png').default },
+        { href: "#", src: require('.././assets/img/logo.png').default }
       ]
     }  
   };

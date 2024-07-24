@@ -6,9 +6,9 @@ import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
-import { data } from '../data';
+import { data } from '../../data/data';
 
-export const NavBar = () => {
+export const CustNavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
@@ -68,3 +68,4 @@ export const NavBar = () => {
     </Router>
   )
 }
+export default CustNavBar;
