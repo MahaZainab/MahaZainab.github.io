@@ -32,6 +32,14 @@ export const data = {
         { href: "https://www.kaggle.com/mahazainab28", src: require('../assets/img/kaggle.svg').default },
         { href: "mznb03@gmail.com", src: require('../assets/img/gmail.svg').default }
       ]
+    },
+    banner: {
+      tagline: "Welcome to my Portfolio",
+      name: "Maha Zainab",
+      roles: ["Machine Learning Enthusiast ", "MERN Stack Developer", "NLP, ASR, CV Researcher"],
+      description: "2x Harvard Competitions winner. 3rd highest female coder nationwide and ranked 1798th globally in Google Code Jam 2023. 45th position on day 19 among 311,017 coders in the Advent of Code 2023",
+      connectButtonText: "Let’s Connect",
+      headerImg: require('../assets/img/Maha Pic.svg').default,
     }  
   };
   
