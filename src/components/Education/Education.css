@@ -1,0 +1,92 @@
+/* src/components/Education.css */
+
+.education-section {
+    padding: 60px 20px;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .education-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .education-title {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  .education-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .education-item {
+    background: #222;
+    border: 0.1px solid #854CE6;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 16px;
+    padding: 20px 30px;
+  }
+  
+  .degree {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .period {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .institute {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .thesis-title, .project-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .thesis-domain, .project-domain, .technologies-used, .thesis-detail, .project-detail {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .education-title {
+      margin-top: 12px;
+      font-size: 32px;
+    }
+  
+    .degree {
+      font-size: 24px;
+    }
+  
+    .thesis-title, .project-title {
+      font-size: 18px;
+    }
+  
+    .education-item {
+      padding: 15px 20px;
+    }
+  }
+  

@@ -79,6 +79,26 @@ export const data = {
           { name: "VS Code", image: "path/to/kubernetes-icon.svg" }
         ]
       }
-    ]  
+    ],
+    education: [
+      {
+        degree: "Master of Science in Information Technology",
+        period: "2016-2019",
+        institute: "National University of Sciences and Technology, Islamabad, Pakistan",
+        thesisTitle: "Information Credibility Identification in Facebook Stories",
+        thesisDomain: "Information Retrieval and Machine Learning",
+        technologiesUsed: ["Scikit-Learn", "Numpy", "NLTK", "NLU", "TextStat", "TextBlob"],
+        thesisDetail: "The research proposed a system that uses multiple machine learning classification models to predict the credibility of news articles correctly. The research used seven credibility categories for evaluating news and each category had multiple features. The system's accuracy was evaluated on two different datasets where decision tree and gradient boosting classification models achieved accuracy scores of 93% and 95% respectively."
+      },
+      {
+        degree: "Bachelor of Science in Information Technology",
+        period: "2011-2015",
+        institute: "University of Gujrat, Pakistan",
+        finalYearProject: "Collaborative Editor on Web-Based Overlay Network",
+        projectDomain: "Web Development",
+        technologiesUsed: ["Socket.io", "node.js", "AngularJs"],
+        projectDetail: "I implemented a plugin-free web-based overlay network (WOvNet) with the integration of editors in a collaborative environment. It also features audio chat and video chat. Further, to facilitate users I provided a Chrome extension to join the network that encompasses all mentioned features."
+      }
+    ]    
   };
   

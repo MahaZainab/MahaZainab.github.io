@@ -3,7 +3,8 @@
 import React from 'react';
 import CustNavBar from './components/Navbar/CustNavBar';
 import Banner from './components/Banner/Banner';
-import Skill from './components/Skills/Skills'
+import Skill from './components/Skills/Skills';
+import Education from './components/Education/Education';
 import Main from './components/Main/Main';
 import Footer from './components/Footer/Footer';
 import './App.css';
@@ -16,6 +17,7 @@ function App() {
       <CustNavBar />
       <Banner />
       <Skill />
+      <Education />
       <Footer />
     </div>
   );
