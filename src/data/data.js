@@ -41,35 +41,47 @@ export const data = {
       connectButtonText: "Let’s Connect",
       headerImg: require('../assets/img/Maha Pic.svg').default,
     },
-    skills: {
-      frontend: [
-        { name: "HTML", icon: "path/to/html-icon.svg" },
-        { name: "CSS", icon: "path/to/css-icon.svg" },
-        { name: "Bootstrap", icon: "path/to/bootstrap-icon.svg" },
-        { name: "Tailwind CSS", icon: "path/to/tailwind-icon.svg" },
-        { name: "JavaScript", icon: "path/to/javascript-icon.svg" },
-        { name: "Material UI", icon: "path/to/material-ui-icon.svg" },
-        { name: "Ant Design", icon: "path/to/ant-design-icon.svg" },
-        { name: "React JS", icon: "path/to/react-icon.svg" }
-      ],
-      backend: [
-        { name: "PHP", icon: "path/to/php-icon.svg" },
-        { name: "MySQL", icon: "path/to/mysql-icon.svg" },
-        { name: "Node JS", icon: "path/to/node-icon.svg" },
-        { name: "Express JS", icon: "path/to/express-icon.svg" },
-        { name: "MongoDB", icon: "path/to/mongodb-icon.svg" },
-        { name: "Firebase", icon: "path/to/firebase-icon.svg" }
-      ],
-      languages: [
-        { name: "Python", icon: "path/to/python-icon.svg" },
-        { name: "Java", icon: "path/to/java-icon.svg" },
-        { name: "C++", icon: "path/to/cpp-icon.svg" }
-      ],
-      others: [
-        { name: "Git", icon: "path/to/git-icon.svg" },
-        { name: "Docker", icon: "path/to/docker-icon.svg" },
-        { name: "Kubernetes", icon: "path/to/kubernetes-icon.svg" }
-      ]
-    }  
+    skills: [
+      {
+        title: "Frontend",
+        skills: [
+          { name: "HTML", image: "path/to/html-icon.svg" },
+          { name: "CSS", image: "path/to/css-icon.svg" },
+          { name: "Bootstrap", image: "path/to/bootstrap-icon.svg" },
+          { name: "Tailwind CSS", image: "path/to/tailwind-icon.svg" },
+          { name: "JavaScript", image: "path/to/javascript-icon.svg" },
+          { name: "Material UI", image: "path/to/material-ui-icon.svg" },
+          { name: "Ant Design", image: "path/to/ant-design-icon.svg" },
+          { name: "React JS", image: "path/to/react-icon.svg" }
+        ]
+      },
+      {
+        title: "Backend",
+        skills: [
+          { name: "PHP", image: "path/to/php-icon.svg" },
+          { name: "MySQL", image: "path/to/mysql-icon.svg" },
+          { name: "Node JS", image: "path/to/node-icon.svg" },
+          { name: "Express JS", image: "path/to/express-icon.svg" },
+          { name: "MongoDB", image: "path/to/mongodb-icon.svg" },
+          { name: "Firebase", image: "path/to/firebase-icon.svg" }
+        ]
+      },
+      {
+        title: "Languages",
+        skills: [
+          { name: "Python", image: "path/to/python-icon.svg" },
+          { name: "Java", image: "path/to/java-icon.svg" },
+          { name: "C++", image: "path/to/cpp-icon.svg" }
+        ]
+      },
+      {
+        title: "Others",
+        skills: [
+          { name: "Git", image: "path/to/git-icon.svg" },
+          { name: "Docker", image: "path/to/docker-icon.svg" },
+          { name: "Kubernetes", image: "path/to/kubernetes-icon.svg" }
+        ]
+      }
+    ]  
   };
   
