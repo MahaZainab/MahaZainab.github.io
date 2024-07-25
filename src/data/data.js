@@ -45,14 +45,12 @@ export const data = {
       {
         title: "Frontend",
         skills: [
-          { name: "HTML", image: "path/to/html-icon.svg" },
-          { name: "CSS", image: "path/to/css-icon.svg" },
-          { name: "Bootstrap", image: "path/to/bootstrap-icon.svg" },
-          { name: "Tailwind CSS", image: "path/to/tailwind-icon.svg" },
-          { name: "JavaScript", image: "path/to/javascript-icon.svg" },
-          { name: "Material UI", image: "path/to/material-ui-icon.svg" },
-          { name: "Ant Design", image: "path/to/ant-design-icon.svg" },
-          { name: "React JS", image: "path/to/react-icon.svg" }
+          { name: "HTML", image: require("../assets/img/skills/html.svg").default },
+          { name: "CSS", image: require("../assets/img/skills/css3.svg").default },
+          { name: "Bootstrap", image: require("../assets/img/skills/bootstrap.svg").default },
+          { name: "JavaScript", image: require("../assets/img/skills/javascript.svg").default },
+          { name: "Streamlit", image: require("../assets/img/skills/streamlit.svg").default },
+          { name: " React", image: require("../assets/img/skills/react.svg").default }
         ]
       },
       {
