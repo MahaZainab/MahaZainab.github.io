@@ -284,8 +284,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   background: none;
-  mix-blend-mode: multiply;
-}
+  }
 @keyframes updown {
     0% {
         transform: translateY(-20px);
