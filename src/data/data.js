@@ -56,28 +56,27 @@ export const data = {
       {
         title: "Backend",
         skills: [
-          { name: "PHP", image: "path/to/php-icon.svg" },
-          { name: "MySQL", image: "path/to/mysql-icon.svg" },
-          { name: "Node JS", image: "path/to/node-icon.svg" },
-          { name: "Express JS", image: "path/to/express-icon.svg" },
-          { name: "MongoDB", image: "path/to/mongodb-icon.svg" },
-          { name: "Firebase", image: "path/to/firebase-icon.svg" }
+          { name: "PHP", image: require("../assets/img/skills/php.svg").default },
+          { name: "MySQL", image: require("../assets/img/skills/mysql.svg").default },
+          { name: "Node JS", image: require("../assets/img/skills/node.svg").default  },
+          { name: "Express JS", image: require("../assets/img/skills/express.svg").default  },
+          { name: "MongoDB", image: require("../assets/img/skills/mongodb.svg").default }
         ]
       },
       {
         title: "Languages",
         skills: [
           { name: "Python", image: "path/to/python-icon.svg" },
-          { name: "Java", image: "path/to/java-icon.svg" },
-          { name: "C++", image: "path/to/cpp-icon.svg" }
+          { name: "JavaScript", image: "path/to/java-icon.svg" },
+          { name: "Java", image: "path/to/cpp-icon.svg" }
         ]
       },
       {
         title: "Others",
         skills: [
           { name: "Git", image: "path/to/git-icon.svg" },
-          { name: "Docker", image: "path/to/docker-icon.svg" },
-          { name: "Kubernetes", image: "path/to/kubernetes-icon.svg" }
+          { name: "Github", image: "path/to/docker-icon.svg" },
+          { name: "VS Code", image: "path/to/kubernetes-icon.svg" }
         ]
       }
     ]  
