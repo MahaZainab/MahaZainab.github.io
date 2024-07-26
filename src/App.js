@@ -5,6 +5,7 @@ import CustNavBar from './components/Navbar/CustNavBar';
 import Banner from './components/Banner/Banner';
 import Skill from './components/Skills/Skills';
 import Education from './components/Education/Education';
+import Projects from './components/Projects/Projects';
 import Main from './components/Main/Main';
 import Footer from './components/Footer/Footer';
 import './App.css';
@@ -18,7 +19,8 @@ function App() {
       <Banner />
       <Skill />
       <Education />
-      <Footer />
+      <Projects />
+
     </div>
   );
 }
