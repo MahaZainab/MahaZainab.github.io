@@ -99,6 +99,99 @@ export const data = {
         technologiesUsed: ["Socket.io", "node.js", "AngularJs"],
         projectDetail: "I implemented a plugin-free web-based overlay network (WOvNet) with the integration of editors in a collaborative environment. It also features audio chat and video chat. Further, to facilitate users I provided a Chrome extension to join the network that encompasses all mentioned features."
       }
+    ],
+    projects: [
+      {
+        category: "Web Development",
+        projects: [
+          {
+            title: "Travel The World",
+            description: "Landing Page Design",
+            imgUrl: "path/to/project-img1.png",
+            gitUrl: "https://github.com/username/project1"
+          },
+          {
+            title: "Collaborative Editor",
+            description: "Web-Based Overlay Network",
+            imgUrl: "path/to/project-img2.png",
+            gitUrl: "https://github.com/username/project2"
+          },
+          {
+            title: "E-commerce Platform",
+            description: "Online Store",
+            imgUrl: "path/to/project-img3.png",
+            gitUrl: "https://github.com/username/project3"
+          }
+        ]
+      },
+      {
+        category: "Machine Learning",
+        projects: [
+          {
+            title: "Spam Detection",
+            description: "Email Spam Detection System",
+            imgUrl: "path/to/project-img4.png",
+            gitUrl: "https://github.com/username/project4"
+          },
+          {
+            title: "Sentiment Analysis",
+            description: "Twitter Sentiment Analysis",
+            imgUrl: "path/to/project-img5.png",
+            gitUrl: "https://github.com/username/project5"
+          }
+        ]
+      },
+      {
+        category: "Mobile Development",
+        projects: [
+          {
+            title: "Weather App",
+            description: "Weather Forecast App",
+            imgUrl: "path/to/project-img6.png",
+            gitUrl: "https://github.com/username/project6"
+          },
+          {
+            title: "Fitness Tracker",
+            description: "Health & Fitness App",
+            imgUrl: "path/to/project-img7.png",
+            gitUrl: "https://github.com/username/project7"
+          }
+        ]
+      },
+      {
+        category: "Data Science",
+        projects: [
+          {
+            title: "Stock Prediction",
+            description: "Predicting Stock Prices",
+            imgUrl: "path/to/project-img8.png",
+            gitUrl: "https://github.com/username/project8"
+          },
+          {
+            title: "Customer Segmentation",
+            description: "Segmenting Customer Data",
+            imgUrl: "path/to/project-img9.png",
+            gitUrl: "https://github.com/username/project9"
+          }
+        ]
+      },
+      {
+        category: "Game Development",
+        projects: [
+          {
+            title: "2D Platformer",
+            description: "Unity Game Development",
+            imgUrl: "path/to/project-img10.png",
+            gitUrl: "https://github.com/username/project10"
+          },
+          {
+            title: "VR Experience",
+            description: "Virtual Reality Game",
+            imgUrl: "path/to/project-img11.png",
+            gitUrl: "https://github.com/username/project11"
+          }
+        ]
+      }
     ]    
   };
   
