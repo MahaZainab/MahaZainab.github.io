@@ -113,8 +113,8 @@ export const data = {
           {
             title: "Collaborative Editor",
             description: "Web-Based Overlay Network",
-            imgUrl: "path/to/project-img2.png",
-            gitUrl: "https://github.com/username/project2"
+            imgUrl: require("../assets/img/projects/wovnet.svg").default,
+            gitUrl: "https://github.com/MahaZainab/Final-Year-Project"
           },
           {
             title: "E-commerce Platform",
