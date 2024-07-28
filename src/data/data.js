@@ -107,7 +107,7 @@ export const data = {
           {
             title: "Travel The World",
             description: "Landing Page Design",
-            imgUrl: "path/to/project-img1.png",
+            imgUrl: "../assets/img/projects/project-img1.png",
             gitUrl: "https://github.com/username/project1"
           },
           {
@@ -142,7 +142,7 @@ export const data = {
         ]
       },
       {
-        category: "Mobile Development",
+        category: "Gen AI",
         projects: [
           {
             title: "Weather App",
@@ -159,7 +159,7 @@ export const data = {
         ]
       },
       {
-        category: "Data Science",
+        category: "Hackathons",
         projects: [
           {
             title: "Stock Prediction",
@@ -172,23 +172,6 @@ export const data = {
             description: "Segmenting Customer Data",
             imgUrl: "path/to/project-img9.png",
             gitUrl: "https://github.com/username/project9"
-          }
-        ]
-      },
-      {
-        category: "Game Development",
-        projects: [
-          {
-            title: "2D Platformer",
-            description: "Unity Game Development",
-            imgUrl: "path/to/project-img10.png",
-            gitUrl: "https://github.com/username/project10"
-          },
-          {
-            title: "VR Experience",
-            description: "Virtual Reality Game",
-            imgUrl: "path/to/project-img11.png",
-            gitUrl: "https://github.com/username/project11"
           }
         ]
       }
