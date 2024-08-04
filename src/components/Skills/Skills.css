@@ -1,0 +1,118 @@
+/* src/components/Skills.css */
+
+.skills-section {
+    padding: 60px 20px;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .skills-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .skills-title {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  .skills-subtitle {
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+    color: #ccc;
+    margin-bottom: 40px;
+  }
+  
+  .skills-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .skill-category {
+    width: 100%;
+    max-width: 500px;
+    background: #222;
+    border: 0.1px solid #854CE6;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 16px;
+    padding: 18px 36px;
+  }
+  
+  .skill-category-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ccc;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .skill-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .skill-item {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .skill-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    .skills-title {
+      margin-top: 12px;
+      font-size: 32px;
+    }
+  
+    .skills-subtitle {
+      font-size: 16px;
+    }
+  
+    .skill-category {
+      max-width: 400px;
+      padding: 10px 36px;
+    }
+  
+    .skill-item {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .skill-category {
+      max-width: 330px;
+      padding: 10px 36px;
+    }
+  
+    .skill-item {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  }
+  
