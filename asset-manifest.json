@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6498663.css",
-    "main.js": "/static/js/main.543aa883.js",
+    "main.css": "/static/css/main.b4946bae.css",
+    "main.js": "/static/js/main.09ecf758.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/wovnet.svg": "/static/media/wovnet.351b098d7d071649b2fb2a385c0fffbb.svg",
     "static/media/Maha Pic.svg": "/static/media/Maha Pic.459bebb5f1131654325466c6e8212ca5.svg",
@@ -11,6 +11,7 @@
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/Maha.svg": "/static/media/Maha.71f0cc6c8d07224c0deb3b65cfbabbf9.svg",
     "static/media/react.svg": "/static/media/react.bfbc852a1e4f19a7ab0cb68948f4662c.svg",
     "static/media/mysql.svg": "/static/media/mysql.ea58635c07556f17e2696a553b280204.svg",
@@ -28,12 +29,12 @@
     "static/media/streamlit.svg": "/static/media/streamlit.e4b44212167787f885d909b7927a7309.svg",
     "index.html": "/index.html",
     "static/media/gmail.svg": "/static/media/gmail.e1bc2ceb745debf9361ad2160a79823a.svg",
-    "main.e6498663.css.map": "/static/css/main.e6498663.css.map",
-    "main.543aa883.js.map": "/static/js/main.543aa883.js.map",
+    "main.b4946bae.css.map": "/static/css/main.b4946bae.css.map",
+    "main.09ecf758.js.map": "/static/js/main.09ecf758.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6498663.css",
-    "static/js/main.543aa883.js"
+    "static/css/main.b4946bae.css",
+    "static/js/main.09ecf758.js"
   ]
 }
