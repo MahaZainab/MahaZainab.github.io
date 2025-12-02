@@ -6,7 +6,7 @@ const HomePage = lazy(() => import("@/pages/home"));
 
 export default function AppRouting() {
   return (
-    <BrowserRouter basename="/MahaZainab.github.io/">
+    <BrowserRouter basename="/">
       <Suspense
         fallback={
           <div className="flex justify-center items-center min-h-screen">
