@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+public/sitemap.xml
+
+
+Sitemap: https://maha-zainab.github.io/sitemap.xml
