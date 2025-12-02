@@ -51,7 +51,8 @@ After editing, simply:
 ```
 git add .
 git commit -m "Update portfolio data"
-git push
+git push origin main
+npm run build
 npm run deploy
 ```
 
