@@ -47,6 +47,8 @@ You will find files like:
 
 Modify the data there — the UI will update automatically.
 After editing, simply:
+ 
+### Make sure to have node js installed on your system.
 
 ```
 git add .
