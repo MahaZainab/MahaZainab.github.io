@@ -130,7 +130,7 @@ export const news: News[] = [
     id: 3,
     title: "Participated in three Minute Thesis (3MT) Competition",
     year: "2024",
-    category: "Award",
+    category: "October",
   },
   {
     id: 4,
