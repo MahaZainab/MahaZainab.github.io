@@ -67,8 +67,8 @@ export const publications: Publication[] = [
     id: 2,
     title: "Evaluating Large Language Models for Secure Code Generation",
     authors: [
-      "Maha Zainab", "Asad Ali Shah", "Sharifullah Khan", "Seemab Latif", "Safdar Abbas Khan" 
-      "A. Ali Almazroi",
+      "Maha Zainab", "Asad Ali Shah", "Sharifullah Khan", "Seemab Latif", "Safdar Abbas Khan"
+      , "A. Ali Almazroi",
     ],
     pdfLink: "/publications/llm-secure-code.pdf",
     talkLink: "/talks/llm-secure-code",
