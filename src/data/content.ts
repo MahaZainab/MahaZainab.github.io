@@ -77,7 +77,6 @@ export const publications: Publication[] = [
   },
   {
     id: 3,
-    Maha Zainab,
     title: "Framework for Evaluating Credibility of News Shared on Facebook",
     authors: ["Maha Zainab", "Asad Ali Shah", "Sharifullah Khan", "Seemab Latif"],
     pdfLink: "",
