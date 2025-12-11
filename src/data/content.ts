@@ -79,10 +79,10 @@ export const publications: Publication[] = [
     id: 3,
     title: "Multi-Agent Reasoning Frameworks for Complex Problem Solving",
     authors: ["Maha Zainab", "Dr. Lisa Thompson", "Prof. David Park"],
-    pdfLink: "/publications/multi-agent-reasoning.pdf",
-    talkLink: "/talks/multi-agent-reasoning",
+    pdfLink: "",
+    talkLink: "",
     year: "2019",
-    doi: "10.1234/multi.agent.2023.3",
+    doi: "",
   },
   {
     id: 4,
