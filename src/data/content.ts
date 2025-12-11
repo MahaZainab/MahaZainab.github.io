@@ -56,7 +56,7 @@ export const publications: Publication[] = [
   {
     id: 1,
     title:
-      "Advancements in Neural Network Architectures for Healthcare Diagnostics",
+      "Teaching evaluators to think: Diagnosing and improving large language models for code reasoning tasks.",
     authors: ["Maha Zainab", "Dr. Sarah Chen", "Prof. Michael Rodriguez"],
     pdfLink: "/publications/neural-networks-healthcare.pdf",
     talkLink: "/talks/neural-networks-healthcare",
