@@ -122,9 +122,9 @@ export const news: News[] = [
   },
   {
     id: 2,
-    title: "Keynote Speaker at International Conference on Sustainable Energy",
-    year: "2024",
-    category: "Conference",
+    title: "Participated in Ausome  Science in 60 seconds",
+    year: "2025",
+    category: "October",
   },
   {
     id: 3,
