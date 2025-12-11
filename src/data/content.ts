@@ -70,8 +70,8 @@ export const publications: Publication[] = [
       "Maha Zainab", "Asad Ali Shah", "Sharifullah Khan", "Seemab Latif", "Safdar Abbas Khan"
       , "A. Ali Almazroi",
     ],
-    pdfLink: "/publications/llm-secure-code.pdf",
-    talkLink: "/talks/llm-secure-code",
+    pdfLink: "",
+    talkLink: "",
     year: "2025",
     doi: "2025 International Conference on Innovation in Artificial Intelligence and Internet of Things (AIIT)/IEEE",
   },
