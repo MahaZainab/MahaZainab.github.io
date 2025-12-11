@@ -115,12 +115,6 @@ export const publications: Publication[] = [
 
 export const news: News[] = [
   {
-    id: 1,
-    title: "Accepted tutorial in 20th Workshop on Innovative Use of NLP for Building Educational Applications/ACL",
-    year: "2025",
-    category: "August",
-  },
-  {
     id: 2,
     title: "Participated in Ausome  Science in 60 seconds",
     year: "2025",
@@ -131,6 +125,12 @@ export const news: News[] = [
     title: "Participated in three Minute Thesis (3MT) Competition",
     year: "2025",
     category: "October",
+  },
+  {
+    id: 1,
+    title: "Accepted tutorial in 20th Workshop on Innovative Use of NLP for Building Educational Applications/ACL",
+    year: "2025",
+    category: "August",
   },
   {
     id: 4,
