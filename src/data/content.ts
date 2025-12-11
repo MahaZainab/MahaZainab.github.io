@@ -77,7 +77,8 @@ export const publications: Publication[] = [
   },
   {
     id: 3,
-    title: "Multi-Agent Reasoning Frameworks for Complex Problem Solving",
+    Maha Zainab, Asad Ali Shah, Sharifullah Khan, Seemab Latif 
+    title: "Framework for Evaluating Credibility of News Shared on Facebook",
     authors: ["Maha Zainab", "Dr. Lisa Thompson", "Prof. David Park"],
     pdfLink: "",
     talkLink: "",
