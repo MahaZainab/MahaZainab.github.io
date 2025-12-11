@@ -81,7 +81,7 @@ export const publications: Publication[] = [
     authors: ["Maha Zainab", "Dr. Lisa Thompson", "Prof. David Park"],
     pdfLink: "/publications/multi-agent-reasoning.pdf",
     talkLink: "/talks/multi-agent-reasoning",
-    year: "2023",
+    year: "2019",
     doi: "10.1234/multi.agent.2023.3",
   },
   {
