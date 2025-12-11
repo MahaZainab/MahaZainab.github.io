@@ -141,7 +141,7 @@ export const news: News[] = [
   {
     id: 5,
     title: "Ministry of Economy, Trade & Industry, Japan Internship Awardee (1/90 from 20,000+ applicants)",
-    year: "2023",
+    year: "2024",
     category: "November",
   },
 ];
