@@ -61,7 +61,7 @@ export const publications: Publication[] = [
     pdfLink: "/publications/neural-networks-healthcare.pdf",
     talkLink: "/talks/neural-networks-healthcare",
     year: "2025",
-    doi: "10.1234/neuro.health.2024.1",
+    doi: "",
   },
   {
     id: 2,
