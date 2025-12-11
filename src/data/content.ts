@@ -87,12 +87,8 @@ export const publications: Publication[] = [
   {
     id: 4,
     title: "Scaling Reasoning with Multi-Agent Mutual Awareness Debate(MMAD)",
-    authors: [
-      "Maha Zainab",
-      "Dr. Andrew Baker",
-      "Dr. Maria Garcia",
-      "Prof. Kevin Lee",
-    ],
+    authors: ["Maha Zainab", "Kangyou Park", "Hao Zhu", "Qiaosi Wang", "Anh Totti Nguyen", "Effat Farhana"],
+
     pdfLink: "/publications/rag-systems.pdf",
     talkLink: "/talks/rag-systems",
     year: "2023",
