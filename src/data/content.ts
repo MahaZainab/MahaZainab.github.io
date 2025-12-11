@@ -93,6 +93,15 @@ export const publications: Publication[] = [
     year: "2026",
     doi: "",
   },
+  {
+    id: 5,
+    title: "Small-Language Multi-Agent Debate to Identify Safety Attacks",
+    authors: ["Maha Zainab", "Kangyou Park", "Hao Zhu", "Qiaosi Wang", "Anh Totti Nguyen", "Effat Farhana"],
+    pdfLink: "",
+    talkLink: "",
+    year: "2026",
+    doi: "",
+  },
 ];
 
 /*
