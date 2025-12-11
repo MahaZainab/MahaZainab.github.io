@@ -77,9 +77,9 @@ export const publications: Publication[] = [
   },
   {
     id: 3,
-    Maha Zainab, Asad Ali Shah, Sharifullah Khan, Seemab Latif 
+    Maha Zainab,
     title: "Framework for Evaluating Credibility of News Shared on Facebook",
-    authors: ["Maha Zainab", "Dr. Lisa Thompson", "Prof. David Park"],
+    authors: ["Maha Zainab", "Asad Ali Shah", "Sharifullah Khan", "Seemab Latif"],
     pdfLink: "",
     talkLink: "",
     year: "2019",
