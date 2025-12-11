@@ -88,7 +88,6 @@ export const publications: Publication[] = [
     id: 4,
     title: "Scaling Reasoning with Multi-Agent Mutual Awareness Debate(MMAD)",
     authors: ["Maha Zainab", "Kangyou Park", "Hao Zhu", "Qiaosi Wang", "Anh Totti Nguyen", "Effat Farhana"],
-
     pdfLink: "",
     talkLink: "",
     year: "2026",
