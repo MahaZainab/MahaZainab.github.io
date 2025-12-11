@@ -144,6 +144,12 @@ export const news: News[] = [
     year: "2024",
     category: "November",
   },
+  {
+    id: 5,
+    title: "Advent of Code – Ranked 17/198,321 (2024, Day 20)",
+    year: "2024",
+    category: "November",
+  },
 ];
 
 /*
