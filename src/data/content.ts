@@ -135,8 +135,8 @@ export const news: News[] = [
   {
     id: 4,
     title: "Received Gavin Scholarship Award",
-    year: "2023",
-    category: "Collaboration",
+    year: "2025",
+    category: "March",
   },
   {
     id: 5,
