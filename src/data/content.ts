@@ -86,7 +86,7 @@ export const publications: Publication[] = [
   },
   {
     id: 4,
-    title: "RAG Systems: Enhancing Information Retrieval with Generative AI",
+    title: "Scaling Reasoning with Multi-Agent Mutual Awareness Debate(MMAD)",
     authors: [
       "Maha Zainab",
       "Dr. Andrew Baker",
