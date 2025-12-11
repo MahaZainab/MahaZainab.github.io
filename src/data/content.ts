@@ -72,7 +72,7 @@ export const publications: Publication[] = [
     ],
     pdfLink: "/publications/llm-secure-code.pdf",
     talkLink: "/talks/llm-secure-code",
-    year: "2024",
+    year: "2025",
     doi: "10.1234/llm.secure.2024.2",
   },
   {
