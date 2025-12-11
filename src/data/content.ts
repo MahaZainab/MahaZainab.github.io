@@ -128,7 +128,7 @@ export const news: News[] = [
   },
   {
     id: 3,
-    title: "Receives Prestigious Research Excellence Award 2024",
+    title: "Participated in three Minute Thesis (3MT) Competition",
     year: "2024",
     category: "Award",
   },
