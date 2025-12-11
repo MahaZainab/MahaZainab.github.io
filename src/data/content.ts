@@ -73,7 +73,7 @@ export const publications: Publication[] = [
     pdfLink: "/publications/llm-secure-code.pdf",
     talkLink: "/talks/llm-secure-code",
     year: "2025",
-    Conference: "2025 International Conference on Innovation in Artificial Intelligence and Internet of Things (AIIT)",
+    doi: "2025 International Conference on Innovation in Artificial Intelligence and Internet of Things (AIIT)",
   },
   {
     id: 3,
