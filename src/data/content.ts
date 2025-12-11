@@ -58,7 +58,7 @@ export const publications: Publication[] = [
     title:
       "Teaching evaluators to think: Diagnosing and improving large language models for code reasoning tasks",
     authors: ["Maha Zainab", "Kangyou Park", "Hao Zhu", "Qiaosi Wang", "Anh Totti Nguyen", "Effat Farhana"],
-    pdfLink: "/publications/neural-networks-healthcare.pdf",
+    pdfLink: "",
     talkLink: "/talks/neural-networks-healthcare",
     year: "2025",
     doi: "",
