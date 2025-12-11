@@ -134,7 +134,7 @@ export const news: News[] = [
   },
   {
     id: 4,
-    title: "New Research Collaboration Announced with MIT Media Lab",
+    title: "Received Gavin Scholarship Award",
     year: "2023",
     category: "Collaboration",
   },
