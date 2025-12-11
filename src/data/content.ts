@@ -117,7 +117,7 @@ export const news: News[] = [
   {
     id: 1,
     title: "Accept tutorial in 20th Workshop on Innovative Use of NLP for Building Educational Applications",
-    year: "2024",
+    year: "August 2025",
     category: "Conference",
   },
   {
