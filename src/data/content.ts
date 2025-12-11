@@ -93,15 +93,6 @@ export const publications: Publication[] = [
     year: "2026",
     doi: "",
   },
-  {
-    id: 5,
-    title: "Interpretable Machine Learning for Clinical Decision Support",
-    authors: ["Maha Zainab", "Dr. Jennifer Martinez", "Prof. Richard Brown"],
-    pdfLink: "/publications/interpretable-ml-clinical.pdf",
-    talkLink: "/talks/interpretable-ml-clinical",
-    year: "2022",
-    doi: "10.1234/interpret.ml.2022.5",
-  },
 ];
 
 /*
