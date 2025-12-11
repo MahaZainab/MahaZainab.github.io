@@ -91,8 +91,8 @@ export const publications: Publication[] = [
 
     pdfLink: "",
     talkLink: "",
-    year: "2023",
-    doi: "10.1234/rag.systems.2023.4",
+    year: "2026",
+    doi: "",
   },
   {
     id: 5,
