@@ -65,7 +65,7 @@ export const publications: Publication[] = [
   },
   {
     id: 2,
-    title: "Evaluating Large Language Models for Secure Code Generation",
+    title: "Credibility Identification on Facebook",
     authors: [
       "Maha Zainab", "Asad Ali Shah", "Sharifullah Khan", "Seemab Latif", "Safdar Abbas Khan"
       , "A. Ali Almazroi",
