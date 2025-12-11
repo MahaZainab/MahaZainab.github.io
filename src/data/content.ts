@@ -36,6 +36,8 @@ export const about: About = {
     "Secure Code Understanding",
     "RAG Systems",
     "Multi-Agent Reasoning",
+    "Mutual Theory of Mind",
+    "LLM Evaluation",
   ],
   shortBio:
     "PhD researcher working on Generative AI, NLP, secure code understanding, and LLM evaluation, with experience in data pipelines, RAG systems, and multi-agent reasoning.",
@@ -58,7 +60,7 @@ export const publications: Publication[] = [
     authors: ["Maha Zainab", "Dr. Sarah Chen", "Prof. Michael Rodriguez"],
     pdfLink: "/publications/neural-networks-healthcare.pdf",
     talkLink: "/talks/neural-networks-healthcare",
-    year: "2024",
+    year: "2025",
     doi: "10.1234/neuro.health.2024.1",
   },
   {
