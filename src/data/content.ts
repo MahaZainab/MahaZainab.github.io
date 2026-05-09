@@ -37,7 +37,7 @@ export const about: About = {
     "Secure Code Understanding",
     "RAG Systems",
     "Multi-Agent Reasoning",
-    "Mutual Theory of Mind",
+    "Theory of Mind",
     "LLM Evaluation",
   ],
   shortBio:
