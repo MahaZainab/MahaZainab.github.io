@@ -40,6 +40,7 @@ export default function HeroSection() {
             <p>{about?.p1}</p>
             {about?.p2 && <p>{about?.p2}</p>}
             {about?.p3 && <p>{about?.p3}</p>}
+            {about?.p4 && <p>{about?.p4}</p>}
           </div>
           <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 border border-blue-200 w-fit">
             <div className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></div>
