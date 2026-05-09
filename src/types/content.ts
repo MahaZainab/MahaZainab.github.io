@@ -16,6 +16,7 @@ export type About = {
   p1: string;
   p2?: string;
   p3?: string;
+  p4?: string;
   shortBio: string;
   location: string;
   researchAreas: string[];
