@@ -28,6 +28,7 @@ export const about: About = {
   p1: "PhD researcher focusing on multi-agent reasoning, mutual theory of mind, and secure code understanding, and LLM evaluation. I have experience building end-to-end data pipelines, RAG systems, and multi-agent reasoning frameworks. I enjoy designing practical, interpretable ML solutions by combining rigorous evaluation methods with scalable engineering practices.",
   p2: "To sharpen my own problem solving skills, I solve leetcode problems regularly. I enjoy participating in hackathons and coding constests.",
   p3: "Currently, I am also working as Software/AI Developer at Auburn University Subject Matter Expert (AUSME). Please visit https://ausme.auburn.edu/ for more information.",
+  p4: "I am also a Gavin Fellow, a prestigious fellowship program that supports outstanding PhD students in their research and professional development.",
   // For footer
   location: "United States Of America",
   researchAreas: [
