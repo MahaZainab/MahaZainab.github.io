@@ -22,7 +22,7 @@ import profileImage from "../assets/images/profile.jpg";
 export const about: About = {
   imageUrl: profileImage,
   name: "Maha Zainab",
-  degree: "PhD in Computer Science and Software Engineering",
+  degree: "Graduate Research Assistant(PhD) in Computer Science and Software Engineering",
   instituteName: "Auburn University",
   email: "maz0032@auburn.edu",
   p1: "PhD researcher focusing on multi-agent reasoning, mutual theory of mind, and secure code understanding, and LLM evaluation. I have experience building end-to-end data pipelines, RAG systems, and multi-agent reasoning frameworks. I enjoy designing practical, interpretable ML solutions by combining rigorous evaluation methods with scalable engineering practices.",
