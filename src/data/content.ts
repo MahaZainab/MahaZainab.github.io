@@ -33,6 +33,8 @@ export const about: About = {
   location: "United States Of America",
   researchAreas: [
     "Generative AI",
+    "Small Language Models",
+    "Large Language Models",
     "NLP",
     "Secure Code Understanding",
     "RAG Systems",
