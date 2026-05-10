@@ -59,7 +59,7 @@ export const publications: Publication[] = [
   {
     id: 1,
     title:
-      "Teaching evaluators to think: Diagnosing and improving large language models for code reasoning tasks",
+      "Teaching AI Evaluators to Think: Diagnosing and Improving Large Language Models for Code Reasoning Tasks",
     authors: ["Maha Zainab", "Kangyou Park", "Qiaosi Wang", "Effat Farhana"],
     pdfLink: "",
     talkLink: "",
