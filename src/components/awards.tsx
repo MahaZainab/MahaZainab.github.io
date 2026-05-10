@@ -39,8 +39,8 @@ export default function AwardsSection() {
     <section id="awards" className="py-10 bg-white">
       <div className="max-w-6xl mx-auto px-6 xl:px-0">
         <div className="text-left xl:text-center mb-10">
-          <h2 className="text-5xl font-bold mb-4 bg-linear-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
-            Awards & Honors
+          <h2 className="text-3xl font-bold mb-4 bg-linear-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+            Projects
           </h2>
         </div>
         <div className="space-y-6">
