@@ -90,7 +90,7 @@ export const publications: Publication[] = [
   {
     id: 4,
     title: "MMAD: Multi-Agent Mutual Awareness Debate – A Theory of Mind Framework for Stabilising Small Language Model Debate,",
-    authors: ["Maha Zainab", "Kangyou Park", "Hao Zhu", "Qiaosi Wang", "Anh Totti Nguyen", "Effat Farhana"],
+    authors: ["Maha Zainab", "Kangyou Park", "Hao Zhu", "Qiaosi Wang", "Effat Farhana"],
     pdfLink: "",
     talkLink: "",
     year: "2026",
