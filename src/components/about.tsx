@@ -22,7 +22,7 @@ export default function HeroSection() {
           </div>
           <div className="text-center lg:text-left space-y-1">
             <h2 className="text-3xl font-bold text-gray-900">{about?.name}</h2>
-            <p className="text-lg font-semibold text-gray-800">
+            <p className="text-sm font-semibold text-gray-800">
               {about?.degree}
             </p>
             <p className="text-gray-600">{about?.instituteName}</p>
