@@ -1,5 +1,5 @@
 // Local Imports
-import AwardsSection from "@/components/awards";
+import ProjectsSection from "@/components/projects";
 import FooterSection from "@/components/footer";
 import HeroSection from "@/components/about";
 import NavbarSection from "@/components/navbar";
