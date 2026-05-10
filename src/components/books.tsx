@@ -88,7 +88,7 @@ export default function BooksSection() {
                                 </span>
                               </div>
                             </div>
-                            <h3 className="text-xl font-bold text-gray-900">
+                            <h3 className="text-base font-bold text-gray-900">
                               {item?.title}
                             </h3>
                             <p className="text-md font-medium text-gray-700">
