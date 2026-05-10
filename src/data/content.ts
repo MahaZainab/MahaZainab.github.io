@@ -203,7 +203,7 @@ export const talks: Talk[] = [
   {
     id: 2,
     title: "Emerging Coding Trends",
-    organization: "Global Tech Summit",
+    organization: "DHA Suffa University, Karachi",
     slidesLink: "/slides/ethical-ai-panel",
     category: "Panel Discussion",
     year: "2024",
