@@ -170,9 +170,15 @@ export const news: News[] = [
   },
   {
     id: 7,
-    title: "Secured 4.0 GPA in Fall 2025 semester",
+    title: "Secured 4.0/4.0 GPA in Fall 2025 semester",
     year: "2025",
     category: "December",
+  },
+  {
+    id: 7,
+    title: "Secured 4.0/4.0 GPA in Spring 2026 semester",
+    year: "2026",
+    category: "May",
   },
 ];
 
