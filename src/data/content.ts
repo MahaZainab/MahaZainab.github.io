@@ -216,22 +216,6 @@ export const talks: Talk[] = [
     category: "Keynote Speaker",
     year: "2024",
   },
-  {
-    id: 4,
-    title: "Workshop on Large Language Model Applications",
-    organization: "AI Developers Conference",
-    slidesLink: "/slides/llm-workshop",
-    category: "Workshop",
-    year: "2023",
-  },
-  {
-    id: 5,
-    title: "Invited Talk on Future of Generative AI",
-    organization: "Tech Innovation Forum",
-    slidesLink: "/slides/generative-ai-future",
-    category: "Invited Talk",
-    year: "2022",
-  },
 ];
 
 /*
