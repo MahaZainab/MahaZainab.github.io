@@ -124,7 +124,14 @@ export type Book = {
   author: string;
   status: string;
 };
-
+/*
+ * ┌───────────────────────────────┐
+ * │        🌟 Projects 🌟       │
+ * └───────────────────────────────┘
+ *
+ * ────────────────────────────────
+ * Keep calm and code on! 👩‍💻👨‍💻
+ */
 export type Project = {
   id: number;
   title: string;
