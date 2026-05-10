@@ -62,7 +62,7 @@ export default function NewsSection() {
                     className="group bg-white rounded-2xl p-4 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-200"
                   >
                     <div className="flex flex-wrap justify-between items-start gap-3">
-                      <h3 className="text-xl font-bold text-gray-900 min-w-[200px]">
+                      <h3 className="text-base font-bold text-gray-900 min-w-[200px]">
                         {item?.title}
                       </h3>
                       <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 border border-blue-200 w-fit">
