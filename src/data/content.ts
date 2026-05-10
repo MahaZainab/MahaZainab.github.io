@@ -63,8 +63,8 @@ export const publications: Publication[] = [
     authors: ["Maha Zainab", "Kangyou Park", "Qiaosi Wang", "Effat Farhana"],
     pdfLink: "",
     talkLink: "",
-    year: "2025",
-    doi: "",
+    year: "2026",
+    doi: "FSE 2026 (Under Review)",
   },
   {
     id: 2,
