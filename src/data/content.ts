@@ -105,6 +105,15 @@ export const publications: Publication[] = [
     year: "2026",
     doi: "",
   },
+  {
+    id: 6,
+    title: "Small-Language Multi-Agent Debate to Identify Safety Attacks",
+    authors: ["Maha Zainab", "Jiaqi Wang"],
+    pdfLink: "",
+    talkLink: "",
+    year: "2025",
+    doi: "",
+  },
 ];
 
 /*
