@@ -210,7 +210,7 @@ export const talks: Talk[] = [
   },
   {
     id: 3,
-    title: "Research Presentation on Neural Network Optimization",
+    title: "Context-Aware Chatbots using Retrieval Augmented Generation techniques"
     organization: "Machine Learning Symposium",
     slidesLink: "/slides/neural-network-optimization",
     category: "Research Talk",
