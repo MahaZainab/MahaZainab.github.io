@@ -214,7 +214,7 @@ export const talks: Talk[] = [
     organization: "Pak Angles",
     slidesLink: "",
     category: "Keynote Speaker",
-    year: "2023",
+    year: "2024",
   },
   {
     id: 4,
