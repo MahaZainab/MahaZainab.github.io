@@ -93,7 +93,7 @@ export default function PublicationSection() {
                           {formatAuthors(item?.authors)}
                         </p>
                         {item?.doi && (
-                          <span className="text-sm text-gray-500 font-mono">
+                          <span className="text-xs text-gray-500 font-mono">
                             DOI: {item?.doi}
                           </span>
                         )}
