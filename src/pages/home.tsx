@@ -18,7 +18,7 @@ export default function HomePage() {
       <PublicationSection />
       <NewsSection />
       <TalksSection />
-      <AwardsSection />
+      <ProjectsSection />
       <ServicesSection />
       <BooksSection />
       <FooterSection />
