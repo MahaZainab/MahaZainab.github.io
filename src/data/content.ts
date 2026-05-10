@@ -354,3 +354,30 @@ export const books: Book[] = [
     year: "2023",
   },
 ];
+
+export const projects: Project[] = [
+  {
+    id: 1,
+    title: "Smart Business Voice Chatbot",
+    technology: "React, Node.js, AI Voice Assistant",
+    description:
+      "Developed a smart voice chatbot solution to help restaurants speed up customer orders and improve business workflow.",
+    year: "2026",
+  },
+  {
+    id: 2,
+    title: "RAG-Based Chatbot",
+    technology: "Python, LangChain, Vector Database, LLM",
+    description:
+      "Built a retrieval-augmented generation chatbot capable of answering questions using custom knowledge sources.",
+    year: "2025",
+  },
+  {
+    id: 3,
+    title: "Multi-Agent Reasoning Framework",
+    technology: "Python, LLMs, Multi-Agent Systems",
+    description:
+      "Designed a multi-agent reasoning framework for evaluating and improving large language model responses.",
+    year: "2025",
+  },
+];
