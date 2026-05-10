@@ -164,7 +164,7 @@ export const news: News[] = [
   },
   {
     id: 5,
-    title: "Participated Business Idea Bash and developed smart business solution to speed up orders in resutrants.   ",
+    title: "Participated in Business Idea Bash and developed smart business solution(Voice chatbot) to speed up orders in resutrants.   ",
     year: "2026",
     category: "March",
   },
