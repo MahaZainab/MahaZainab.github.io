@@ -67,7 +67,7 @@ export default function NewsSection() {
                       </h3>
                       <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 border border-blue-200 w-fit">
                         <Newspaper size={16} className="text-blue-600" />
-                        <span className="text-xm font-medium text-blue-700 whitespace-nowrap">
+                        <span className="text-xs font-medium text-blue-700 whitespace-nowrap">
                           {item?.category || "News"}
                         </span>
                       </div>
