@@ -1,7 +1,7 @@
 // Local Imports
 import type {
   About,
-  Award,
+  Project,
   Book,
   News,
   Publication,
