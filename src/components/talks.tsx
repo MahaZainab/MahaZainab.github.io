@@ -41,7 +41,7 @@ export default function TalksSection() {
     <section id="talks" className="py-10 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6 xl:px-0">
         <div className="text-left xl:text-center mb-10">
-          <h2 className="text-5xl font-bold mb-4 bg-linear-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+          <h2 className="text-3xl font-bold mb-4 bg-linear-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
             Talks
           </h2>
         </div>
