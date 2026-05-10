@@ -202,7 +202,7 @@ export const talks: Talk[] = [
   },
   {
     id: 2,
-    title: "Panel Discussion on Ethical AI Development",
+    title: "Emerging Coding Trends",
     organization: "Global Tech Summit",
     slidesLink: "/slides/ethical-ai-panel",
     category: "Panel Discussion",
