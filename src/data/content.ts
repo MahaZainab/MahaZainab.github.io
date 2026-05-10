@@ -366,26 +366,99 @@ export const books: Book[] = [
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Smart Business Voice Chatbot",
-    technology: "React, Node.js, AI Voice Assistant",
+    title: "Advent of Code 2023",
+    technology: "Python",
     description:
-      "Developed a smart voice chatbot solution to help restaurants speed up customer orders and improve business workflow.",
-    year: "2026",
+      "Participated in a 25-day coding competition and secured 45th position on day 19 among 311,017 coders.",
+    year: "2023",
   },
   {
     id: 2,
-    title: "RAG-Based Chatbot",
-    technology: "Python, LangChain, Vector Database, LLM",
+    title: "Cohere Interview Chatbot",
+    technology: "Cohere, NumPy, PDFReader, Streamlit",
     description:
-      "Built a retrieval-augmented generation chatbot capable of answering questions using custom knowledge sources.",
-    year: "2025",
+      "Developed an AI chatbot to help job seekers prepare for interviews by analyzing resumes and job descriptions, using Cohere's language model with a Streamlit front end.",
+    year: "2023",
   },
   {
     id: 3,
-    title: "Multi-Agent Reasoning Framework",
-    technology: "Python, LLMs, Multi-Agent Systems",
+    title: "CS50x Puzzle Day 2023",
+    technology: "Problem Solving",
     description:
-      "Designed a multi-agent reasoning framework for evaluating and improving large language model responses.",
+      "Participated in Harvard University's international puzzle-solving competition, solved all 9 puzzles, and was recognized as a highest scorer.",
+    year: "2023",
+  },
+  {
+    id: 4,
+    title: "Google Code Jam 2023",
+    technology: "Python 3.7",
+    description:
+      "Participated in Google Code Jam 2023 and solved 4 out of 5 assigned competitive programming problems.",
+    year: "2023",
+  },
+  {
+    id: 5,
+    title: "100 Minutes of Coding",
+    technology: "C++",
+    description:
+      "Participated in a national-level coding competition organized by IEEE and qualified.",
+    year: "2023",
+  },
+  {
+    id: 6,
+    title: "E-Learning Chatbot (RAG)",
+    technology:
+      "Python, LangChain, Google PaLM, InstructorEmbedding, FAISS, Streamlit",
+    description:
+      "Built a RAG-based chatbot for retrieving precise answers from an educational FAQ dataset using semantic embeddings, FAISS retrieval, and Google PaLM response generation.",
+    year: "2024",
+  },
+  {
+    id: 7,
+    title: "Brain Tumour Classification and Detection",
+    technology: "Python, TensorFlow, Keras, NumPy, Matplotlib, Jupyter",
+    description:
+      "Developed a deep learning model for brain tumour classification using MRI and CT-scan images, CNN architecture, preprocessing, and image normalization, achieving 95% accuracy.",
+    year: "2024",
+  },
+  {
+    id: 8,
+    title: "Sentiment Analysis of Political Tweets",
+    technology: "Tweepy, Scikit-learn, NLTK, NumPy, Pandas, Matplotlib",
+    description:
+      "Built an NLP pipeline to classify political tweet sentiment using TF-IDF features with Naive Bayes and SVM, achieving more than 97% accuracy.",
+    year: "2024",
+  },
+  {
+    id: 9,
+    title: "Multi-Agent Debate",
+    technology: "Python, Jupyter Notebook, LLMs, Multi-Agent Systems",
+    description:
+      "Developed experiments around multi-agent debate and reasoning workflows for large language model evaluation.",
+    year: "2025",
+  },
+  {
+    id: 11,
+    title: "Federated and Collaborative Machine Learning",
+    technology: "Python, Machine Learning, Federated Learning",
+    description:
+      "Explored federated and collaborative machine learning concepts through practical implementations and experiments.",
+    year: "2025",
+  },
+  {
+    id: 12,
+    title: "Machine Learning Beginner to Advanced",
+    technology: "Jupyter Notebook, Python, Machine Learning",
+    description:
+      "Created machine learning notebooks and educational material covering beginner-to-advanced ML concepts.",
+    year: "2025",
+  },
+  {
+    id: 13,
+    title: "Eating Sound",
+    technology: "Jupyter Notebook, ASR, Audio Processing",
+    description:
+      "Worked on ASR-related projects involving eating sound and audio processing experiments.",
     year: "2025",
   },
 ];
