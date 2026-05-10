@@ -74,7 +74,7 @@ export default function TalksSection() {
                             </span>
                           </div>
                         </div>
-                        <h3 className="text-xl font-bold text-gray-900">
+                        <h3 className="text-base font-bold text-gray-900">
                           {item?.organization}
                         </h3>
                         <h3 className="text-md text-gray-600">{item?.title}</h3>
