@@ -393,7 +393,7 @@ export const projects: Project[] = [
     title: "Google Code Jam 2023",
     technology: "Python 3.7",
     description:
-      "Participated in Google Code Jam 2023 and solved 4 out of 5 assigned competitive programming problems.",
+      "Participated in Google Code Jam 2023",
     year: "2023",
   },
   {
@@ -432,7 +432,7 @@ export const projects: Project[] = [
   {
     id: 9,
     title: "Multi-Agent Debate",
-    technology: "Python, Jupyter Notebook, LLMs, Multi-Agent Systems",
+    technology: "Python, LLMs, Multi-Agent Systems",
     description:
       "Developed experiments around multi-agent debate and reasoning workflows for large language model evaluation.",
     year: "2025",
@@ -446,17 +446,9 @@ export const projects: Project[] = [
     year: "2025",
   },
   {
-    id: 12,
-    title: "Machine Learning Beginner to Advanced",
-    technology: "Jupyter Notebook, Python, Machine Learning",
-    description:
-      "Created machine learning notebooks and educational material covering beginner-to-advanced ML concepts.",
-    year: "2025",
-  },
-  {
     id: 13,
     title: "Eating Sound",
-    technology: "Jupyter Notebook, ASR, Audio Processing",
+    technology: "ASR, Audio Processing",
     description:
       "Worked on ASR-related projects involving eating sound and audio processing experiments.",
     year: "2025",
