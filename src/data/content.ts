@@ -102,7 +102,7 @@ export const publications: Publication[] = [
     authors: ["Maha Zainab", "Jiaqi Wang"],
     pdfLink: "",
     talkLink: "",
-    year: "2026",
+    year: "2025",
     doi: "",
   },
   {
