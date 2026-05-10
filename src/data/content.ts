@@ -227,38 +227,6 @@ export const talks: Talk[] = [
  * Keep calm and code on! 👩‍💻👨‍💻
  */
 
-export const awards: Award[] = [
-  {
-    id: 1,
-    title: "Research Excellence Award",
-    organization: "International Research Foundation",
-    year: "2024",
-  },
-  {
-    id: 2,
-    title: "Innovation in Science Award",
-    organization: "Global Science Association",
-    year: "2024",
-  },
-  {
-    id: 3,
-    title: "Outstanding Researcher Award",
-    organization: "National Science Council",
-    year: "2023",
-  },
-  {
-    id: 4,
-    title: "Academic Achievement Award",
-    organization: "University Research Board",
-    year: "2023",
-  },
-  {
-    id: 5,
-    title: "Young Scientist Award",
-    organization: "Science Innovation Foundation",
-    year: "2022",
-  },
-];
 
 /*
  * ┌───────────────────────────────┐
