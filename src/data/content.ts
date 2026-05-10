@@ -111,8 +111,8 @@ export const publications: Publication[] = [
     authors: ["Maha Zainab", "Jiaqi Wang"],
     pdfLink: "",
     talkLink: "",
-    year: "2025",
-    doi: "",
+    year: "2026",
+    doi: "BEA 2026 Co-located ACL",
   },
 ];
 
