@@ -8,7 +8,7 @@ import { groupAndPaginate } from "@/helpers/helpers";
 import EmptyStateComp from "@/components/no-data";
 
 export default function ProjectsSection() {
-  const [visibleCount, setVisibleCount] = useState(5);
+  const [visibleCount, setVisibleCount] = useState(15);
 
   useEffect(() => {
     const handleScroll = () => {
