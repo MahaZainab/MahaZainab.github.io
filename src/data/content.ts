@@ -212,8 +212,8 @@ export const talks: Talk[] = [
     id: 3,
     title: "Context-Aware Chatbots using Retrieval Augmented Generation techniques",
     organization: "Pak Angles",
-    slidesLink: "/slides/neural-network-optimization",
-    category: "Research Talk",
+    slidesLink: "",
+    category: "Keynote Speaker",
     year: "2023",
   },
   {
