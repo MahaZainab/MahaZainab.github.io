@@ -438,7 +438,7 @@ export const projects: Project[] = [
     year: "2025",
   },
   {
-    id: 11,
+    id: 10,
     title: "Federated and Collaborative Machine Learning",
     technology: "Python, Machine Learning, Federated Learning",
     description:
@@ -446,7 +446,7 @@ export const projects: Project[] = [
     year: "2025",
   },
   {
-    id: 13,
+    id: 11,
     title: "Eating Sound",
     technology: "ASR, Audio Processing",
     description:
