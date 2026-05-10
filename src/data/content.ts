@@ -108,7 +108,7 @@ export const publications: Publication[] = [
   {
     id: 6,
     title: "Theory of Mind and Application in Educational Context, Tutorial",
-    authors: ["Effat Farhana", "Maha Zainab", "Qiaosi Wang", "Niloofar Mireshghallah", "Kangyou Park"],
+    authors: ["Effat Farhana", "Maha Zainab", "Qiaosi Wang", "Niloofar Mireshghallah", "Ramira van der Meulen", "Max van Duijn"],
     pdfLink: "",
     talkLink: "",
     year: "2026",
