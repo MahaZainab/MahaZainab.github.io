@@ -172,7 +172,7 @@ export const news: News[] = [
     id: 7,
     title: "Secured 4.0 GPA in Fall 2025 semester",
     year: "2025",
-    category: "March",
+    category: "December",
   },
 ];
 
