@@ -51,7 +51,7 @@ export default function TalksSection() {
             <div key={year} className="space-y-2">
               <div className="flex items-center gap-3">
                 <Calendar className="w-6 h-6 text-blue-600" />
-                <h3 className="text-3xl font-bold text-gray-900">{year}</h3>
+                <h3 className="text-xl font-bold text-gray-900">{year}</h3>
                 <div className="flex-1 h-px bg-gray-300 ml-4"></div>
                 <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
                   {visibleGroups[year]?.length} talk
