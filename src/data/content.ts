@@ -197,7 +197,7 @@ export const talks: Talk[] = [
     title: "Latest Trends in Technology and AI Research",
     organization: "UET, Lahore",
     slidesLink: "/slides/ai-conference-2024",
-    category: "Keynote",
+    category: "Keynote Speaker",
     year: "2025",
   },
   {
