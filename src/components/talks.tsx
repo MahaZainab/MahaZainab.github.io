@@ -72,7 +72,7 @@ export default function TalksSection() {
                         <h3 className="text-base font-bold text-gray-900">
                           {item?.organization}
                         </h3>
-                        <h3 className="text-md text-gray-600">
+                        <h3 className="text-sm text-gray-600">
                           {item?.title}
                         </h3>
                       </div>
