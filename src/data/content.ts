@@ -163,9 +163,15 @@ export const news: News[] = [
     category: "November",
   },
   {
-    id: 5,
+    id: 6,
     title: "Participated in Business Idea Bash and developed smart business solution(voice chatbot) to speed up orders in resutrants. ",
     year: "2026",
+    category: "March",
+  },
+  {
+    id: 7,
+    title: "Secured 4.0 GPA in Fall 2025 semester",
+    year: "2025",
     category: "March",
   },
 ];
