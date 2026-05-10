@@ -89,7 +89,7 @@ export default function PublicationSection() {
                         <h3 className="text-base font-bold text-gray-900">
                           {item?.title}
                         </h3>
-                        <p className="text-gray-600 text-md">
+                        <p className="text-gray-600 text-sm">
                           {formatAuthors(item?.authors)}
                         </p>
                         {item?.doi && (
