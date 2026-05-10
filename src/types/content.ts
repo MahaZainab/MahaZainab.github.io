@@ -124,3 +124,11 @@ export type Book = {
   author: string;
   status: string;
 };
+
+export type Project = {
+  id: number;
+  title: string;
+  technology: string;
+  description: string;
+  year: string;
+};
