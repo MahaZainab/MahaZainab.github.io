@@ -45,8 +45,10 @@ export default function TalksSection() {
             Talks
           </h2>
         </div>
+
         <div className="space-y-6">
           {sortedKeys.length === 0 && <EmptyStateComp />}
+
           {sortedKeys?.map((year) => (
             <div key={year} className="space-y-2">
               <div className="flex items-center gap-3">
@@ -58,40 +60,41 @@ export default function TalksSection() {
                   {visibleGroups[year]?.length > 1 ? "s" : ""}
                 </span>
               </div>
+
               <div className="grid gap-4">
                 {visibleGroups[year]?.map((item) => (
                   <div
                     key={item?.id}
                     className="group bg-white rounded-2xl p-4 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-200"
                   >
-                    <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-2">
-                      <div className="flex-1">
-                        <div className="flex items-center gap-3 mb-4">
-                          <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 border border-blue-200">
-                            <Mic size={16} className="text-blue-600" />
-                            <span className="text-sm font-medium text-blue-700">
-                              {item?.category || "Talk"}
-                            </span>
-                          </div>
-                        </div>
+                    <div className="flex flex-wrap justify-between items-start gap-3">
+                      <div className="min-w-[200px]">
                         <h3 className="text-base font-bold text-gray-900">
                           {item?.organization}
                         </h3>
-                        <h3 className="text-md text-gray-600">{item?.title}</h3>
+                        <h3 className="text-md text-gray-600">
+                          {item?.title}
+                        </h3>
                       </div>
-                      <div className="flex lg:flex-col items-center lg:items-end gap-4 lg:gap-2">
-                        {item?.slidesLink && (
-                          <Link to={item?.slidesLink}>
-                            <Button
-                              variant={"outline"}
-                              className="flex items-center gap-2 px-6 py-3 text-lg cursor-pointer rounded-full bg-blue-600 hover:bg-blue-700 text-white font-semibold transition-colors hover:text-white"
-                            >
-                              <Projector size={18} />
-                              Slides
-                            </Button>
-                          </Link>
-                        )}
+
+                      <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 border border-blue-200 w-fit">
+                        <Mic size={16} className="text-blue-600" />
+                        <span className="text-xs font-medium text-blue-700 whitespace-nowrap">
+                          {item?.category || "Talk"}
+                        </span>
                       </div>
+
+                      {item?.slidesLink && (
+                        <Link to={item?.slidesLink}>
+                          <Button
+                            variant="outline"
+                            className="flex items-center gap-2 px-4 py-2 text-sm cursor-pointer rounded-full bg-blue-600 hover:bg-blue-700 text-white font-semibold transition-colors hover:text-white"
+                          >
+                            <Projector size={16} />
+                            Slides
+                          </Button>
+                        </Link>
+                      )}
                     </div>
                   </div>
                 ))}
