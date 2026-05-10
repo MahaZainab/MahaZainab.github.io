@@ -61,7 +61,7 @@ export default function PublicationSection() {
     <section id="publications" className="py-10 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6 xl:px-0">
         <div className="text-left lg:text-center mb-10">
-          <h2 className="text-5xl font-bold mb-4 bg-linear-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+          <h2 className="text-3xl font-bold mb-4 bg-linear-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
             Publications
           </h2>
         </div>
@@ -71,7 +71,7 @@ export default function PublicationSection() {
             <div key={year} className="space-y-2">
               <div className="flex items-center gap-3">
                 <Calendar className="w-6 h-6 text-blue-600" />
-                <h3 className="text-3xl font-bold text-gray-900">{year}</h3>
+                <h3 className="text-xl font-bold text-gray-900">{year}</h3>
                 <div className="flex-1 h-px bg-gray-300 ml-4" />
                 <span className="text-sm text-gray-600 bg-gray-100 px-3 py-1 rounded-full">
                   {visibleGroups[year]?.length} publication
@@ -86,7 +86,7 @@ export default function PublicationSection() {
                   >
                     <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
                       <div className="flex-1">
-                        <h3 className="text-xl font-bold text-gray-900">
+                        <h3 className="text-base font-bold text-gray-900">
                           {item?.title}
                         </h3>
                         <p className="text-gray-600 text-md">
