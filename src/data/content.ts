@@ -107,7 +107,7 @@ export const publications: Publication[] = [
   },
   {
     id: 6,
-    title: "Small-Language Multi-Agent Debate to Identify Safety Attacks",
+    title: "Theory of Mind and Application in Educational Context, Tutorial",
     authors: ["Maha Zainab", "Jiaqi Wang"],
     pdfLink: "",
     talkLink: "",
