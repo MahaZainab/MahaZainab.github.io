@@ -16,13 +16,15 @@ export type About = {
   advisor?: { name: string; url: string };
   email: string;
   cvUrl?: string;
-  headline: string;
   callout: string;
-  p1: string;
-  p2?: string;
-  p3?: string;
-  p4?: string;
-  currentWork?: { title: string; description: string };
+  currentWork: { title: string; description: string }[];
+  industryExperience: {
+    role: string;
+    organization: string;
+    url?: string;
+    description?: string;
+  }[];
+  serviceAndTeaching: string[];
   shortBio: string;
   location: string;
   researchAreas: string[];

@@ -22,26 +22,44 @@ import profileImage from "../assets/images/profile.jpg";
 export const about: About = {
   imageUrl: profileImage,
   name: "Maha Zainab",
-  title: "Small Language Model Reasoning & Reliability Researcher",
+  title: "SLM/LLM Reasoning and Reliability Researcher",
   degree: "PhD student, Computer Science and Software Engineering",
   instituteName: "Auburn University",
   advisor: { name: "Dr. Effat Farhana", url: "https://effat.github.io/" },
   email: "maz0032@auburn.edu",
   cvUrl:
     "https://drive.google.com/file/d/1L1b9SznqYV9wOCd6GxSzNjgzH9JDfKhU/view?usp=sharing",
-  headline:
-    "How small language models reason, where they fail, and how to make them more reliable.",
   callout:
     "Seeking summer 2027 research internships · Open to research collaborations",
-  p1: "PhD researcher focusing on multi-agent reasoning, mutual theory of mind, and secure code understanding, and LLM evaluation. I have experience building end-to-end data pipelines, RAG systems, and multi-agent reasoning frameworks. I enjoy designing practical, interpretable ML solutions by combining rigorous evaluation methods with scalable engineering practices.",
-  p2: "To sharpen my own problem solving skills, I solve leetcode problems regularly. I enjoy participating in hackathons and coding constests.",
-  p3: "Currently, I am also working as Software/AI Developer at Auburn University Subject Matter Expert (AUSME). Please visit https://ausme.auburn.edu/ for more information.",
-  p4: "I am also a Gavin Fellow, a prestigious fellowship program that supports and recognizes outstanding PhD students ",
-  currentWork: {
-    title: "Multi-Agent Communication & Collaboration Reasoning",
-    description:
-      "Studying how collaboration structures, interaction protocols, feedback, and agent heterogeneity shape reasoning performance, reliability, and failure modes in multi-agent systems.",
-  },
+  currentWork: [
+    {
+      title: "Reliable and Efficient Small Language Model Reasoning",
+      description:
+        "Studying why small language models fail on code comprehension questions, and how inference-time theory of mind feedback can correct those failures at lower computational cost than finetuning or using large language models.",
+    },
+    {
+      title: "Multi-Agent Communication & Collaboration Reasoning",
+      description:
+        "Studying how collaboration structures, interaction protocols, feedback, and agent heterogeneity shape reasoning performance, reliability, and failure modes in multi-agent systems.",
+    },
+  ],
+  industryExperience: [
+    {
+      role: "Software/AI Developer",
+      organization: "Auburn University Subject Matter Expert (AUSME)",
+      url: "https://ausme.auburn.edu/",
+    },
+    {
+      role: "Internship Awardee",
+      organization: "Ministry of Economy, Trade & Industry (METI), Japan",
+      description: "Selected 1 of 90 from 20,000+ applicants (2024).",
+    },
+  ],
+  serviceAndTeaching: [
+    "Gavin Fellow",
+    "Senator, Graduate Student Council",
+    'Teaching Assistant for "Software Modeling and Design" and "Software Engineering Methods for Deep Learning Quality Assurance"',
+  ],
   // For footer
   location: "United States Of America",
   researchAreas: [

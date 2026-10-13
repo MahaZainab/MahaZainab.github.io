@@ -4,25 +4,6 @@ import { FileText, Mail } from "lucide-react";
 import SocialLinksComp from "@/components/social-links";
 import { about } from "@/data/content";
 
-// Turns plain URLs inside bio text into clickable links
-function linkify(text: string) {
-  return text.split(/(https?:\/\/\S+?)(?=[.,)]?(?:\s|$))/g).map((part, i) =>
-    /^https?:\/\//.test(part) ? (
-      <a
-        key={i}
-        href={part}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-600 hover:underline"
-      >
-        {part}
-      </a>
-    ) : (
-      part
-    )
-  );
-}
-
 export default function HeroSection() {
   return (
     <section
@@ -43,14 +24,14 @@ export default function HeroSection() {
           </div>
           <div className="text-center lg:text-left space-y-1">
             <h2 className="text-3xl font-bold text-gray-900">{about?.name}</h2>
-            <p className="text-xl font-semibold text-blue-700 leading-snug">
+            <p className="text-lg font-semibold text-blue-700 leading-snug">
               {about?.title}
             </p>
-            <p className="text-sm text-gray-700 pt-1">
+            <p className="text-base text-gray-700 pt-1">
               {about?.degree}, {about?.instituteName}
             </p>
             {about?.advisor && (
-              <p className="text-sm text-gray-600">
+              <p className="text-base text-gray-600">
                 Advised by{" "}
                 <a
                   href={about.advisor.url}
@@ -87,26 +68,62 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="lg:col-span-2 space-y-8">
-          <h3 className="text-2xl sm:text-3xl font-semibold text-gray-900 leading-snug">
-            {about?.headline}
-          </h3>
-          <div className="space-y-5 text-lg leading-relaxed text-gray-700">
-            <p>{about?.p1}</p>
-            {about?.p2 && <p>{about?.p2}</p>}
-            {about?.p3 && <p>{linkify(about.p3)}</p>}
-            {about?.p4 && <p>{about?.p4}</p>}
+          <div className="space-y-3 text-lg leading-relaxed text-gray-700">
+            <h3 className="text-xl font-bold text-gray-900">
+              Current Research Work
+            </h3>
+            <ol className="list-decimal pl-6 space-y-3">
+              {about?.currentWork?.map((work) => (
+                <li key={work.title}>
+                  <span className="font-semibold text-gray-900">
+                    {work.title}:
+                  </span>{" "}
+                  {work.description}
+                </li>
+              ))}
+            </ol>
           </div>
-          {about?.currentWork && (
-            <div className="space-y-2 text-lg leading-relaxed text-gray-700">
-              <h3 className="text-xl font-bold text-gray-900">Current Work</h3>
-              <p>
-                <span className="font-semibold text-gray-900">
-                  {about.currentWork.title}:
-                </span>{" "}
-                {about.currentWork.description}
-              </p>
-            </div>
-          )}
+          <div className="space-y-3 text-lg leading-relaxed text-gray-700">
+            <h3 className="text-xl font-bold text-gray-900">
+              Industry Experience
+            </h3>
+            <ul className="list-disc pl-6 space-y-2">
+              {about?.industryExperience?.map((job) => (
+                <li key={job.organization}>
+                  <span className="font-semibold text-gray-900">
+                    {job.role}
+                  </span>
+                  , {job.organization}
+                  {job.url && (
+                    <>
+                      {" "}
+                      (
+                      <a
+                        href={job.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline"
+                      >
+                        {job.url}
+                      </a>
+                      )
+                    </>
+                  )}
+                  {job.description && <>. {job.description}</>}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="space-y-3 text-lg leading-relaxed text-gray-700">
+            <h3 className="text-xl font-bold text-gray-900">
+              Fellowship, Service & Teaching
+            </h3>
+            <ul className="list-disc pl-6 space-y-2">
+              {about?.serviceAndTeaching?.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </div>
           <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 border border-blue-200 w-fit">
             <div className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></div>
             <span className="text-sm font-medium text-blue-700">
