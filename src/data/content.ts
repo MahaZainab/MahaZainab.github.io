@@ -27,7 +27,8 @@ export const about: About = {
   instituteName: "Auburn University",
   advisor: { name: "Dr. Effat Farhana", url: "https://effat.github.io/" },
   email: "maz0032@auburn.edu",
-  cvUrl: "",
+  cvUrl:
+    "https://drive.google.com/file/d/1L1b9SznqYV9wOCd6GxSzNjgzH9JDfKhU/view?usp=sharing",
   headline:
     "How small language models reason, where they fail, and how to make them more reliable.",
   callout:
