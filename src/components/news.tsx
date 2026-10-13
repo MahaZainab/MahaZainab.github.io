@@ -6,6 +6,28 @@ import { groupAndPaginate } from "@/helpers/helpers";
 import { news } from "@/data/content";
 import EmptyStateComp from "@/components/no-data";
 
+const MONTHS = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
+// Newest first: by year, then by month within the year
+const sortedNews = [...news].sort(
+  (a, b) =>
+    Number(b.year) - Number(a.year) ||
+    MONTHS.indexOf(b.category) - MONTHS.indexOf(a.category)
+);
+
 export default function NewsSection() {
   const [visibleCount, setVisibleCount] = useState(5);
 
@@ -30,7 +52,7 @@ export default function NewsSection() {
   }, []);
 
   const { visibleGroups, sortedKeys } = groupAndPaginate(
-    news,
+    sortedNews,
     "year",
     visibleCount
   );

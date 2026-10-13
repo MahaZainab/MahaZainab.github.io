@@ -145,7 +145,7 @@ export const publications: Publication[] = [
   },
   {
     id: 7,
-    title: "Software Engineering Methods for Deep Learning Quality Assurance",
+    title: "Small Models, Hard Questions: Failures, Interventions, and Energy Usage",
     authors: ["Maha Zainab", "Sungbin Park", "Noah Shi", "Kangyou Park", "Qiaosi Wang", "Effat Farhana"],
     pdfLink: "",
     talkLink: "",
@@ -220,9 +220,39 @@ export const news: News[] = [
   },
   {
     id: 8,
-    title: 'Working as a Teaching Assistant for "Software Modeling and Design" and "Software Engineering Methods for Deep Learning Quality Assurance"',
+    title: 'Working as a Teaching Assistant for "Software Modeling and Design"',
     year: "2026",
     category: "August",
+  },
+  {
+    id: 9,
+    title: 'Working as a Teaching Assistant for "Software Engineering Methods for Deep Learning Quality Assurance"',
+    year: "2026",
+    category: "August",
+  },
+  {
+    id: 10,
+    title: "Working as a Senator at Auburn University Graduate Student Council",
+    year: "2026",
+    category: "August",
+  },
+  {
+    id: 11,
+    title: "Attended Tapia Conference",
+    year: "2026",
+    category: "September",
+  },
+  {
+    id: 12,
+    title: "Participated in 2026 Tapia AI Hackathon",
+    year: "2026",
+    category: "September",
+  },
+  {
+    id: 13,
+    title: 'Submitted article "Small Models, Hard Questions: Failures, Interventions, and Energy Usage" to FSE',
+    year: "2026",
+    category: "October",
   },
 ];
 
