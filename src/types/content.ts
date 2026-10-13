@@ -17,6 +17,7 @@ export type About = {
   p2?: string;
   p3?: string;
   p4?: string;
+  currentWork?: { title: string; description: string };
   shortBio: string;
   location: string;
   researchAreas: string[];

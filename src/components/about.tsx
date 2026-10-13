@@ -42,6 +42,17 @@ export default function HeroSection() {
             {about?.p3 && <p>{about?.p3}</p>}
             {about?.p4 && <p>{about?.p4}</p>}
           </div>
+          {about?.currentWork && (
+            <div className="space-y-2 text-lg leading-relaxed text-gray-700">
+              <h3 className="text-xl font-bold text-gray-900">Current Work</h3>
+              <p>
+                <span className="font-semibold text-gray-900">
+                  {about.currentWork.title}:
+                </span>{" "}
+                {about.currentWork.description}
+              </p>
+            </div>
+          )}
           <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 border border-blue-200 w-fit">
             <div className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></div>
             <span className="text-sm font-medium text-blue-700">

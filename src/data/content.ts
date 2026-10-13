@@ -29,6 +29,11 @@ export const about: About = {
   p2: "To sharpen my own problem solving skills, I solve leetcode problems regularly. I enjoy participating in hackathons and coding constests.",
   p3: "Currently, I am also working as Software/AI Developer at Auburn University Subject Matter Expert (AUSME). Please visit https://ausme.auburn.edu/ for more information.",
   p4: "I am also a Gavin Fellow, a prestigious fellowship program that supports and recognizes outstanding PhD students ",
+  currentWork: {
+    title: "Multi-Agent Communication & Collaboration Reasoning",
+    description:
+      "Studying how collaboration structures, interaction protocols, feedback, and agent heterogeneity shape reasoning performance, reliability, and failure modes in multi-agent systems.",
+  },
   // For footer
   location: "United States Of America",
   researchAreas: [
