@@ -33,7 +33,7 @@ export const about: About = {
     {
       title: "Reliable and Efficient Small Language Model Reasoning",
       description:
-        "Studying why small language models fail on code comprehension questions, and how inference-time theory of mind feedback can correct those failures at lower computational cost than finetuning or using large language models.",
+        "Studying why small language models fail on code comprehension questions, and how inference-time theory of mind feedback can correct those failures at lower computational cost than fine-tuning or using large language models.",
     },
     {
       title: "Multi-Agent Communication & Collaboration Reasoning",
@@ -93,7 +93,7 @@ export const publications: Publication[] = [
     pdfLink: "",
     talkLink: "",
     year: "2026",
-    doi: "FSE 2026 (Under Review)",
+    doi: "",
   },
   {
     id: 2,
@@ -123,7 +123,7 @@ export const publications: Publication[] = [
     pdfLink: "",
     talkLink: "",
     year: "2026",
-    doi: "ACL Rolling Review(Under Review)",
+    doi: "In Preparation",
   },
   {
     id: 5,
@@ -142,6 +142,15 @@ export const publications: Publication[] = [
     talkLink: "",
     year: "2026",
     doi: "BEA 2026 Co-located ACL",
+  },
+  {
+    id: 7,
+    title: "Software Engineering Methods for Deep Learning Quality Assurance",
+    authors: ["Maha Zainab", "Sungbin Park", "Noah Shi", "Kangyou Park", "Qiaosi Wang", "Effat Farhana"],
+    pdfLink: "",
+    talkLink: "",
+    year: "2027",
+    doi: "FSE 2027 (Under Review)",
   },
 ];
 
