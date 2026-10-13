@@ -54,7 +54,7 @@ export default function NavbarSection() {
               ))}
             </NavigationMenuList>
           </NavigationMenu>
-          <Link to={cvData.url}>
+          <Link to={cvData.url} target="_blank" rel="noopener noreferrer">
             <Button
               variant="outline"
               size="lg"
@@ -103,7 +103,12 @@ export default function NavbarSection() {
             </ScrollLink>
           ))}
 
-          <Link to={cvData.url} onClick={() => setMobileOpen(false)}>
+          <Link
+            to={cvData.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setMobileOpen(false)}
+          >
             <Button
               variant="outline"
               className="w-full rounded-full border border-blue-600 py-3 text-lg font-semibold text-blue-600
