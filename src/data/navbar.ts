@@ -16,7 +16,6 @@ export const menuItems: MenuItem[] = [
   { title: "News", url: "news" },
   { title: "Talks", url: "talks" },
   { title: "Projects", url: "projects" },
-  { title: "Services", url: "services" },
   { title: "Books", url: "books" },
 ];
 

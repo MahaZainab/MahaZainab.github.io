@@ -7,7 +7,6 @@ import NewsSection from "@/components/news";
 import PublicationSection from "@/components/publications";
 import ScrollToggleButton from "@/components/scroll-btn";
 import TalksSection from "@/components/talks";
-import ServicesSection from "@/components/services";
 import BooksSection from "@/components/books";
 
 export default function HomePage() {
@@ -19,7 +18,6 @@ export default function HomePage() {
       <NewsSection />
       <TalksSection />
       <ProjectsSection />
-      <ServicesSection />
       <BooksSection />
       <FooterSection />
       <ScrollToggleButton />

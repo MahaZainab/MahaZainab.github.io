@@ -267,6 +267,14 @@ export const news: News[] = [
 
 export const talks: Talk[] = [
   {
+    id: 4,
+    title: "Theory of Mind and Application in Educational Context",
+    organization: "BEA 2026 Workshop, co-located with ACL 2026",
+    slidesLink: "",
+    category: "Tutorial",
+    year: "2026",
+  },
+  {
     id: 1,
     title: "Latest Trends in Technology and AI Research",
     organization: "University of Engineering and Technology",
@@ -311,43 +319,8 @@ export const talks: Talk[] = [
  * Keep calm and code on! 👩‍💻👨‍💻
  */
 
-export const services: Service[] = [
-  {
-    id: 1,
-    title: "Journal Peer Review - Nature Communications",
-    category: "Reviewer",
-    year: "2024",
-    organization: "Nature Communications",
-  },
-  {
-    id: 2,
-    title: "Conference Program Committee Member",
-    category: "Committee Member",
-    year: "2024",
-    organization: "ICML 2024",
-  },
-  {
-    id: 3,
-    title: "Grant Proposal Reviewer",
-    category: "Grant Reviewer",
-    year: "2023",
-    organization: "National Science Foundation",
-  },
-  {
-    id: 4,
-    title: "Thesis Committee Member",
-    category: "Thesis Committee",
-    year: "2023",
-    organization: "Stanford University",
-  },
-  {
-    id: 5,
-    title: "Journal Editorial Board",
-    category: "Editorial Board",
-    year: "2022",
-    organization: "JAIR Journal",
-  },
-];
+// Section hidden from the home page until real entries are added here
+export const services: Service[] = [];
 
 /*
  * ┌───────────────────────────────┐
