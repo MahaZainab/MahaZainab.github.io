@@ -31,5 +31,5 @@ export const menuItems: MenuItem[] = [
 
 export const cvData: CvData = {
   title: "CV",
-  url: "/cv",
+  url: "https://drive.google.com/file/d/1L1b9SznqYV9wOCd6GxSzNjgzH9JDfKhU/view?usp=sharing",
 };

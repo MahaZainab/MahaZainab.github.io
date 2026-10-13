@@ -27,8 +27,6 @@ export const about: About = {
   instituteName: "Auburn University",
   advisor: { name: "Dr. Effat Farhana", url: "https://effat.github.io/" },
   email: "maz0032@auburn.edu",
-  cvUrl:
-    "https://drive.google.com/file/d/1L1b9SznqYV9wOCd6GxSzNjgzH9JDfKhU/view?usp=sharing",
   callout:
     "Seeking summer 2027 research internships · Open to research collaborations",
   currentWork: [

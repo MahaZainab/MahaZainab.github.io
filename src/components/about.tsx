@@ -1,5 +1,5 @@
 // Libraries Imports
-import { FileText, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 // Local Imports
 import SocialLinksComp from "@/components/social-links";
 import { about } from "@/data/content";
@@ -53,17 +53,6 @@ export default function HeroSection() {
                 <Mail size={24} />
               </a>
               <SocialLinksComp />
-              {about?.cvUrl && (
-                <a
-                  href={about.cvUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-4 py-3 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700 transition-all duration-300"
-                >
-                  <FileText size={20} />
-                  CV
-                </a>
-              )}
             </div>
           </div>
         </div>
@@ -93,21 +82,18 @@ export default function HeroSection() {
                   <span className="font-semibold text-gray-900">
                     {job.role}
                   </span>
-                  , {job.organization}
-                  {job.url && (
-                    <>
-                      {" "}
-                      (
-                      <a
-                        href={job.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:underline"
-                      >
-                        {job.url}
-                      </a>
-                      )
-                    </>
+                  ,{" "}
+                  {job.url ? (
+                    <a
+                      href={job.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline"
+                    >
+                      {job.organization}
+                    </a>
+                  ) : (
+                    job.organization
                   )}
                   {job.description && <>. {job.description}</>}
                 </li>

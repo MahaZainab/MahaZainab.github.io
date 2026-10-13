@@ -15,7 +15,6 @@ export type About = {
   instituteName: string;
   advisor?: { name: string; url: string };
   email: string;
-  cvUrl?: string;
   callout: string;
   currentWork: { title: string; description: string }[];
   industryExperience: {
