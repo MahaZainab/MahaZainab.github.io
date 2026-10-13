@@ -218,6 +218,12 @@ export const news: News[] = [
     year: "2026",
     category: "May",
   },
+  {
+    id: 8,
+    title: 'Working as a Teaching Assistant for "Software Modeling and Design" and "Software Engineering Methods for Deep Learning Quality Assurance"',
+    year: "2026",
+    category: "August",
+  },
 ];
 
 /*
