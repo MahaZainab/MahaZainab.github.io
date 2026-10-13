@@ -1,6 +1,27 @@
+// Libraries Imports
+import { FileText, Mail } from "lucide-react";
 // Local Imports
 import SocialLinksComp from "@/components/social-links";
 import { about } from "@/data/content";
+
+// Turns plain URLs inside bio text into clickable links
+function linkify(text: string) {
+  return text.split(/(https?:\/\/\S+?)(?=[.,)]?(?:\s|$))/g).map((part, i) =>
+    /^https?:\/\//.test(part) ? (
+      <a
+        key={i}
+        href={part}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline"
+      >
+        {part}
+      </a>
+    ) : (
+      part
+    )
+  );
+}
 
 export default function HeroSection() {
   return (
@@ -22,24 +43,57 @@ export default function HeroSection() {
           </div>
           <div className="text-center lg:text-left space-y-1">
             <h2 className="text-3xl font-bold text-gray-900">{about?.name}</h2>
-            <p className="text-sm font-semibold text-gray-800">
-              {about?.degree}
+            <p className="text-xl font-semibold text-blue-700 leading-snug">
+              {about?.title}
             </p>
-            <p className="text-gray-600">{about?.instituteName}</p>
-            <div className="flex items-center justify-center lg:justify-start gap-2 text-gray-700">
-              <span className="font-medium">Email:</span>
-              <span className="truncate">{about?.email}</span>
-            </div>
-            <div className="pt-4 flex justify-center lg:justify-start gap-2">
+            <p className="text-sm text-gray-700 pt-1">
+              {about?.degree}, {about?.instituteName}
+            </p>
+            {about?.advisor && (
+              <p className="text-sm text-gray-600">
+                Advised by{" "}
+                <a
+                  href={about.advisor.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  {about.advisor.name}
+                </a>
+              </p>
+            )}
+            <div className="pt-4 flex flex-wrap justify-center lg:justify-start gap-2">
+              <a
+                href={`mailto:${about?.email}`}
+                className="p-3 rounded-xl border border-gray-200 bg-white/50 backdrop-blur-sm hover:bg-blue-600 hover:border-blue-600 hover:text-white transition-all duration-300 group"
+                aria-label="Email"
+                title={about?.email}
+              >
+                <Mail size={24} />
+              </a>
               <SocialLinksComp />
+              {about?.cvUrl && (
+                <a
+                  href={about.cvUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-4 py-3 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700 transition-all duration-300"
+                >
+                  <FileText size={20} />
+                  CV
+                </a>
+              )}
             </div>
           </div>
         </div>
         <div className="lg:col-span-2 space-y-8">
+          <h3 className="text-2xl sm:text-3xl font-semibold text-gray-900 leading-snug">
+            {about?.headline}
+          </h3>
           <div className="space-y-5 text-lg leading-relaxed text-gray-700">
             <p>{about?.p1}</p>
             {about?.p2 && <p>{about?.p2}</p>}
-            {about?.p3 && <p>{about?.p3}</p>}
+            {about?.p3 && <p>{linkify(about.p3)}</p>}
             {about?.p4 && <p>{about?.p4}</p>}
           </div>
           {about?.currentWork && (
@@ -56,7 +110,7 @@ export default function HeroSection() {
           <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 border border-blue-200 w-fit">
             <div className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></div>
             <span className="text-sm font-medium text-blue-700">
-              Available for Research Collaborations
+              {about?.callout}
             </span>
           </div>
         </div>

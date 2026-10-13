@@ -22,9 +22,16 @@ import profileImage from "../assets/images/profile.jpg";
 export const about: About = {
   imageUrl: profileImage,
   name: "Maha Zainab",
-  degree: "Graduate Research Assistant(PhD) in Computer Science and Software Engineering",
+  title: "Small Language Model Reasoning & Reliability Researcher",
+  degree: "PhD student, Computer Science and Software Engineering",
   instituteName: "Auburn University",
+  advisor: { name: "Dr. Effat Farhana", url: "https://effat.github.io/" },
   email: "maz0032@auburn.edu",
+  cvUrl: "",
+  headline:
+    "How small language models reason, where they fail, and how to make them more reliable.",
+  callout:
+    "Seeking summer 2027 research internships · Open to research collaborations",
   p1: "PhD researcher focusing on multi-agent reasoning, mutual theory of mind, and secure code understanding, and LLM evaluation. I have experience building end-to-end data pipelines, RAG systems, and multi-agent reasoning frameworks. I enjoy designing practical, interpretable ML solutions by combining rigorous evaluation methods with scalable engineering practices.",
   p2: "To sharpen my own problem solving skills, I solve leetcode problems regularly. I enjoy participating in hackathons and coding constests.",
   p3: "Currently, I am also working as Software/AI Developer at Auburn University Subject Matter Expert (AUSME). Please visit https://ausme.auburn.edu/ for more information.",

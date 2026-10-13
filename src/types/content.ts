@@ -10,9 +10,14 @@
 export type About = {
   imageUrl: string;
   name: string;
+  title: string;
   degree: string;
   instituteName: string;
+  advisor?: { name: string; url: string };
   email: string;
+  cvUrl?: string;
+  headline: string;
+  callout: string;
   p1: string;
   p2?: string;
   p3?: string;
