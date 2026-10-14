@@ -50,8 +50,8 @@ export const about: About = {
         "contributed to center assessment project using Python and React",
     },
     {
-      role: "Internship Awardee",
-      organization: "Ministry of Economy, Trade & Industry (METI), Japan",
+      role: "Internship",
+      organization: "METI, Japan",
       description: 'developed a RAG-based chatbot named "chilparent"',
     },
   ],
