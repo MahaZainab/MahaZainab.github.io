@@ -1,5 +1,4 @@
 // Libraries Imports
-import { useState, useEffect } from "react";
 import { Calendar, Newspaper } from "lucide-react";
 // Local Imports
 import { groupAndPaginate } from "@/helpers/helpers";
@@ -29,32 +28,10 @@ const sortedNews = [...news].sort(
 );
 
 export default function NewsSection() {
-  const [visibleCount, setVisibleCount] = useState(5);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop =
-        window.pageYOffset || document.documentElement.scrollTop;
-      const windowHeight = window.innerHeight;
-      const docHeight = document.documentElement.scrollHeight;
-
-      if (scrollTop + windowHeight < docHeight - 50) {
-        setVisibleCount((prev) => {
-          if (prev >= news.length) return prev;
-          return Math.min(prev + 5, news.length);
-        });
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   const { visibleGroups, sortedKeys } = groupAndPaginate(
     sortedNews,
     "year",
-    visibleCount
+    sortedNews.length
   );
 
   return (

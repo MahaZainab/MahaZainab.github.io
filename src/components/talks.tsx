@@ -1,5 +1,4 @@
 // Libraries Imports
-import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Calendar, Mic, Projector } from "lucide-react";
 // Local Imports
@@ -9,32 +8,10 @@ import { talks } from "@/data/content";
 import EmptyStateComp from "@/components/no-data";
 
 export default function TalksSection() {
-  const [visibleCount, setVisibleCount] = useState(5);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop =
-        window.pageYOffset || document.documentElement.scrollTop;
-      const windowHeight = window.innerHeight;
-      const docHeight = document.documentElement.scrollHeight;
-
-      if (scrollTop + windowHeight < docHeight - 50) {
-        setVisibleCount((prev) => {
-          if (prev >= talks.length) return prev;
-          return Math.min(prev + 5, talks.length);
-        });
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   const { visibleGroups, sortedKeys } = groupAndPaginate(
     talks,
     "year",
-    visibleCount
+    talks.length
   );
 
   return (

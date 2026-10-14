@@ -1,5 +1,4 @@
 // Libraries Imports
-import { useState, useEffect } from "react";
 import { Calendar } from "lucide-react";
 // Local Imports
 import {
@@ -11,31 +10,10 @@ import { books } from "@/data/content";
 import EmptyStateComp from "@/components/no-data";
 
 export default function BooksSection() {
-  const [visibleCount, setVisibleCount] = useState(5);
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop =
-        window.pageYOffset || document.documentElement.scrollTop;
-      const windowHeight = window.innerHeight;
-      const docHeight = document.documentElement.scrollHeight;
-
-      if (scrollTop + windowHeight < docHeight - 50) {
-        setVisibleCount((prev) => {
-          if (prev >= books.length) return prev;
-          return Math.min(prev + 5, books.length);
-        });
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   const { visibleGroups, sortedKeys } = groupAndPaginate(
     books,
     "year",
-    visibleCount
+    books.length
   );
 
   return (

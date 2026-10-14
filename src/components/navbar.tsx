@@ -44,6 +44,7 @@ export default function NavbarSection() {
                     to={item.url}
                     smooth={true}
                     duration={1200}
+                    offset={-80}
                     className="inline-flex h-10 cursor-pointer items-center px-3 text-lg font-medium
                     text-black hover:text-blue-600 transition duration-150
                     "
@@ -95,6 +96,7 @@ export default function NavbarSection() {
               to={item.url}
               smooth={true}
               duration={1200}
+              offset={-80}
               key={item.title}
               onClick={() => setMobileOpen(false)}
               className="text-lg font-medium text-black hover:text-blue-600 cursor-pointer transition"

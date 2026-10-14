@@ -1,5 +1,4 @@
 // Libraries Imports
-import { useState, useEffect } from "react";
 import { Calendar, FolderKanban } from "lucide-react";
 
 // Local Imports
@@ -8,32 +7,10 @@ import { groupAndPaginate } from "@/helpers/helpers";
 import EmptyStateComp from "@/components/no-data";
 
 export default function ProjectsSection() {
-  const [visibleCount, setVisibleCount] = useState(15);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop =
-        window.pageYOffset || document.documentElement.scrollTop;
-      const windowHeight = window.innerHeight;
-      const docHeight = document.documentElement.scrollHeight;
-
-      if (scrollTop + windowHeight < docHeight - 50) {
-        setVisibleCount((prev) => {
-          if (prev >= projects.length) return prev;
-          return Math.min(prev + 5, projects.length);
-        });
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   const { visibleGroups, sortedKeys } = groupAndPaginate(
     projects,
     "year",
-    visibleCount
+    projects.length
   );
 
   return (

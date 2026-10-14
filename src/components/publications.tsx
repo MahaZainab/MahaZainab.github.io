@@ -1,4 +1,4 @@
-import { useState, useEffect, type JSX } from "react";
+import { type JSX } from "react";
 import { Link } from "react-router-dom";
 import { FileText, PlayIcon, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -7,28 +7,6 @@ import { groupAndPaginate } from "@/helpers/helpers";
 import EmptyStateComp from "@/components/no-data";
 
 export default function PublicationSection() {
-  const [visibleCount, setVisibleCount] = useState(5);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop =
-        window.pageYOffset || document.documentElement.scrollTop;
-      const windowHeight = window.innerHeight;
-      const docHeight = document.documentElement.scrollHeight;
-
-      if (scrollTop + windowHeight < docHeight - 50) {
-        setVisibleCount((prev) => {
-          if (prev >= publications.length) return prev;
-          return Math.min(prev + 5, publications.length);
-        });
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   const formatAuthors = (authors: string | string[]): JSX.Element => {
     const authorsArray =
       typeof authors === "string"
@@ -54,7 +32,7 @@ export default function PublicationSection() {
   const { visibleGroups, sortedKeys } = groupAndPaginate(
     publications,
     "year",
-    visibleCount
+    publications.length
   );
 
   return (
