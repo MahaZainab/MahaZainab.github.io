@@ -95,7 +95,7 @@ export default function HeroSection() {
                   ) : (
                     job.organization
                   )}
-                  {job.description && <>. {job.description}</>}
+                  {job.description && <>, {job.description}</>}
                 </li>
               ))}
             </ul>

@@ -43,13 +43,16 @@ export const about: About = {
   ],
   industryExperience: [
     {
-      role: "Software/AI Developer",
+      role: "Software Developer",
       organization: "Auburn University Subject Matter Expert (AUSME)",
       url: "https://ausme.auburn.edu/",
+      description:
+        "contributed to center assessment project using Python and React",
     },
     {
       role: "Internship Awardee",
       organization: "Ministry of Economy, Trade & Industry (METI), Japan",
+      description: 'developed a RAG-based chatbot named "chilparent"',
     },
   ],
   serviceAndTeaching: [
