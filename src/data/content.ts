@@ -50,7 +50,6 @@ export const about: About = {
     {
       role: "Internship Awardee",
       organization: "Ministry of Economy, Trade & Industry (METI), Japan",
-      description: "Selected 1 of 90 from 20,000+ applicants (2024).",
     },
   ],
   serviceAndTeaching: [
